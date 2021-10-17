@@ -1,0 +1,82 @@
+/*# Variables, colores, tipografias*/
+:root{
+    /*# Background color*/
+    --primary             :#0779E4;
+    --primary-alt         :#006ace;
+    --secondary           :#3DB2FF;
+    --secondary-alt       :#30a9fa;
+    --dark                :#22303a;
+    --dark-50             :#2a3b47;
+    --dark-alt            :#1a252d;
+    --icon-svg            :#a7a7a7;
+    --warning             :#ffba42;
+    --warning-alt         :#e5a638;
+    --light               :#ffffff;
+    --body                :#fbfbfe;
+    --danger              :#F24E59;
+    --danger-alt          :#f18888;
+    --success             :#2dd280;   
+    --success-50          :#6ce0a6; 
+
+    /*# Styles text*/
+    --text-color             :#697477;
+    --text-success           :#2dd280;
+    --text-danger            :#F24E59;
+    --text-warning           :#ffc107;
+    --text-light             :#ffffff;
+    --text-muted             :#c4c4c4;
+    --text-title             :#2a3b47;
+    /*# Style links*/
+    --info-link              :#66d1ff;
+    --muted-link             :#D8E3E7;
+
+
+    /*# Styles border*/
+    --border-color           :#eff3f5;
+    --border-color-alt       :#e9eef0;
+
+
+    /*# Box shadows*/
+    --box-shadow          :0 2px 4px rgba(174,190,205,.3);
+    --box-shadow-alt      :0 2px 4px rgba(0,0,0,.15);
+    --h1-font-size           : 1.5rem;
+    --h2-font-size           : 1.25rem;
+    --h3-font-size           : 1rem;
+    --normal-font-size       : 0.875rem;
+    --small-font-size        : 0.8125rem;
+    --smaller-font-size      : 0.75rem;
+    --heading-line-height    : 1.3;
+    --body-line-height       : 1.6;
+
+
+    /*# Z-INDEX Styles*/
+    --z-behind             : -10;
+    --z-normal               : 1;
+    --z-tooltip              : 10;
+    --z-fixed                : 100;
+    --z-modal                : 1000;
+    --z-modal-alt            : 10000;
+
+
+    /*# Sryles fonts*/
+    --heading-font           :'Raleway', sans-serif;
+    --body-font              :'Open Sans', sans-serif;
+    --font-alt               :'Patrick Hand', cursive;
+
+
+
+    --header-height          : 4rem;
+    --gap: 1rem;
+    --max-width: 1200px;
+}
+
+@media screen and (min-width:1024px){
+    :root{
+    --h1-font-size        : 2.5rem;
+    --h2-font-size        : 1.75rem;
+    --h3-font-size        : 1.25rem;
+    --normal-font-size    : 1rem;
+    --small-font-size     : 0.875rem;
+    --smaller-font-size   : 0.8125rem;
+    }
+}

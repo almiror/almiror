@@ -1,0 +1,16 @@
+.card{
+    background-color: var(--primary-alt);
+    margin: 0;
+    color: var(--text-light);
+    font-size: var(--h1-font-size);
+}
+.one{
+    background-color: var(--primary);
+    height: 10vh;
+}
+.tree{
+    background-color: var(--danger);
+}
+.two{
+    height: 90vh;
+}
