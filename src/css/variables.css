@@ -8,7 +8,7 @@
     --dark                :#22303a;
     --dark-50             :#2a3b47;
     --dark-alt            :#1a252d;
-    --icon-svg            :#a7a7a7;
+    --grey                :#a7a7a7;
     --warning             :#ffba42;
     --warning-alt         :#e5a638;
     --light               :#ffffff;
@@ -17,7 +17,8 @@
     --danger-alt          :#f18888;
     --success             :#2dd280;   
     --success-50          :#6ce0a6; 
-
+    --btn-warning         :#ffc107;
+    --btn-warning-alt     :#FFA400;
     /*# Styles text*/
     --text-color             :#697477;
     --text-success           :#2dd280;

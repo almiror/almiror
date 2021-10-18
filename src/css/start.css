@@ -7,6 +7,9 @@ body{
     margin: 0;
     line-height: 1.6;   
     background-color: #fbfbfe;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
 }
 h1,
