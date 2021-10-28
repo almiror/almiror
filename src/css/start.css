@@ -6,7 +6,7 @@
 body{
     margin: 0;
     line-height: 1.6;   
-    background-color: #fbfbfe;
+    background-color: var(--body);
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;

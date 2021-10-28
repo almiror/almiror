@@ -1,16 +1,257 @@
-.card{
-    background-color: var(--primary-alt);
+.body-dark{
+    background-color: var(--dark-alt);
+}
+.body-dark::-webkit-scrollbar{
+	width: 9px;
+	background-color: var(--border-color);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.body-dark::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(255,255,255,.05);
+	box-shadow: inset 0 0 6px rgba(255,255,255,.05);
+    background-color: rgba(255,255,255,.05);
+	border-right: 10px solid rgba(255,255,255,.05);
+}
+.body-dark::-webkit-scrollbar-thumb:hover,
+.body-dark::-webkit-scrollbar-thumb:active {
+  background-color: var(--dark-alt);
+}
+.main-header{
+    height: calc(var(--header-height) - .5rem);
+    background-color: var(--dark);
+    border-bottom: 1px solid var(--border-color);
+    padding: 0 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all .25s;
+}
+.btn-menu,
+.btn-aside{
+    background-color: transparent;
     margin: 0;
-    color: var(--text-light);
-    font-size: var(--h1-font-size);
+    padding: 0;
 }
-.one{
-    background-color: var(--primary);
-    height: 10vh;
+.btn-menu-icon,
+.btn-aside-icon{
+    width: 24px;
+    height: 24px;
+    margin: 0;
 }
-.tree{
-    background-color: var(--danger);
+.logo{
+    height: 2rem;
+    width: auto;
 }
-.two{
-    height: 90vh;
+.search-input{    
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.search-input::placeholder{
+    color: var(--text-color-alt);
+    font-size: var(--smaller-font-size);
+}
+[type=search] {
+    background: var(--dark-50) url(https://ux.ed.team/img/icon-search.svg) center right 1rem /1rem no-repeat!important;
+    border: 1px solid var(--border-dark-color);
+    line-height: 1.6;
+    font-family: Open Sans,sans-serif;
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+[type=search]:not(:placeholder-shown):hover,
+[type=search]:not(:placeholder-shown):focus{
+    background: var(--dark-50) !important;
+}
+[type=search]:not(:focus){
+    background: var(--dark-50) url(https://ux.ed.team/img/icon-search.svg) center right 1rem /1rem no-repeat!important;
+}
+.aside-menu{
+    background-color: var(--dark);
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+    height: calc(var(--header-height) - .5rem);
+    padding: 0 1rem;
+    border-top: 1px solid var(--border-color);
+    transition: all .25s;
+}
+.nav-icon{
+    width: 20px;
+    height: 20px;
+}
+.nav-icon.active{
+    fill:var(--secondary)
+}
+.nav-item{
+    color: var(--text-color);
+    flex-direction: column;
+}
+.nav-item.active{
+    color: var(--secondary);
+}
+.logo-aside-menu{
+    display: none;
+}
+.small-logo-aside{
+    padding: 0 1rem;
+    border-bottom: 1px solid var(--border-color);
+    height: var(--header-height);
+    justify-content: center;
+}
+.main-header.show{
+    top: -100%;
+}
+.main-header.show + .aside-menu{
+    bottom: -100%;
+}
+.conversion-banner{
+    width: 100%;
+    border-radius: .25rem;
+    background-image: linear-gradient(56deg,var(--dark) 13%,var(--dark-50));
+    max-width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--text-color-alt);
+    padding: 1rem;
+    position: absolute;
+    bottom: 5rem;
+    display: none;
+    overflow: hidden;
+}
+.conversion-banner::before{
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to right, #ff8983 17.85%, #7f0e7f 53.28%, #007a65 100%);
+}
+.content-search{
+    position: absolute;
+    border-radius: 0 0 .25rem .25rem;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    background-color: var(--dark-50);
+    overflow: hidden;
+    height: 0;
+    transition: all .25s;
+}
+.content-search.active{
+    height: auto;
+}
+.content-search-item{
+    padding: .5rem;
+    transition: all .25s;
+    display: none;
+}
+.content-search-item:hover{
+    background-color: var(--dark);
+}
+.content-search-link:hover{
+    color: var(--text-color-alt);
+}
+.content-search-link{
+    color: var(--text-color);
+    display: block;
+}
+.search-input::selection{
+    background-color: rgba(0,0,0,.1);
+}
+.container-search{
+    display: none;
+}
+.container-search.active{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: calc(var(--header-height) - .5rem);
+    background-color: var(--dark);
+    display: flex;
+    align-items: center;
+}
+.container-search.active > div > div + div{
+    display: none;
+}
+.container-search.active > div > div{
+    width: 100%;    
+    grid-column-end: span 10;
+}
+.slider-home{
+    background-image: linear-gradient(-180deg,  var(--dark-50), var(--dark-alt));
+}
+@media screen and (min-width:1024px) {
+    .main-header{
+        grid-template-columns: auto 1fr;
+        padding-right: 2.5rem;
+        height: var(--header-height);
+        width: calc(100% - 4.25rem);
+    }
+    .aside-menu{
+        width: 4.25rem;
+        top: 0;
+        height: 100%;
+        padding: 0;
+        border-top: none;
+        border-right: 1px solid var(--border-color);
+    }
+    .aside-menu.show{
+        width: 240px;
+    }
+    .nav-aside{
+        padding: 1rem 0;
+    }
+    .nav-item{
+        flex-direction: row;
+        padding: .7rem 1.5rem;
+        transition: all .25s;
+        justify-content: center;
+    }
+    .aside-menu.show  .nav-item{
+        justify-content: flex-start;
+    }
+    .nav-item:hover{
+        background-color: var(--dark-alt);
+    }
+    .nav-item > span{
+        width: 0;
+        overflow: hidden;
+    }
+    .aside-menu.show .nav-item > span{
+        padding-left: 1rem;
+        width: auto;
+    }
+    .aside-menu.show  .logo-aside-menu{
+        display: flex;
+    }
+    .aside-menu.show  .small-logo-aside{
+        justify-content: space-between;
+    }
+    .header-actions  > button{
+        margin-right: 1rem;
+    }
+    .aside-menu.show .conversion-banner{
+        display: block;
+    }
+    .container-search{
+        position: static;
+        display: block;
+    }
+    .img-slider-home-max{
+        max-width: 500px;
+    }
+    .slider-home{
+        min-height: 590px;
+    }
+    .main-header.show{
+        top: 0;
+    }
 }

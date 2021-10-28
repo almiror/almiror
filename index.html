@@ -48,12 +48,161 @@
     <link rel="stylesheet" href="./src/css/main.css">
 </head>
 
-<body>
+<body class="loggued loggued-top s-loggued-top body-dark">
     <noscript>Your browser does not support JavaScript!</noscript>
-
+    <header class="main-header grid s-cross-center s-col-gap-4 z-fixed" id="main-header">
+        <div class="flex s-main-justify">
+            <a href="#" class="flex s-cross-center">
+                <img src="./src/assets/img/logo/logo.svg" alt="Logo" class="logo">
+            </a>
+            <button class="btn-menu desktop-none s-main-center s-cross-center" id="showMenu">
+                <svg class="btn-menu-icon s-fill-grey">
+                    <use href="./src/assets/svg/icons.svg#menu" />
+                </svg>
+            </button>
+        </div>
+        <div class="s-relative container-search">
+            <div class="grid s-grid-12 s-main-justify">
+                <div class="flex s-col-star-2 s-cols-8 s-cross-center s-relative">
+                    <input type="search" name="search-input" class="search-input s-outline-none" id="seacrh-input" placeholder="¿Qué buscaremos hoy?">
+                    <div class="content-search">
+                        <ul id="append-search-item">
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex s-cols-3 s-main-end header-actions z-modal">
+                    <button class="btn-menu small-none flex s-cross-center">
+                        <svg class="btn-menu-icon  s-fill-grey">
+                            <use href="./src/assets/svg/icons.svg#frequent-questions-alt" />
+                        </svg>
+                    </button>
+                    <div>
+                        <a href="#" class="btn btn-transparent-light smaller">Acceder</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <aside class="aside-menu z-fixed" id="aside-menu">
+        <div class="flex small-none s-width small-logo-aside">
+            <a href="#" class="flex s-cross-center logo-aside-menu active">
+                <img src="./src/assets/img/logo/logo.svg" alt="Logo" class="logo">
+            </a>
+            <button class="btn-aside flex s-cross-center s-main-center" id="showAside">
+                <svg class="btn-aside-icon s-fill-grey">
+                    <use href="./src/assets/svg/icons.svg#menu" />
+                </svg>
+            </button>
+        </div> 
+        <nav class="s-height flex s-cross-center s-main-justify lg-display-block nav-aside s-relative">
+            <a href="#" class="nav-item active smaller flex s-cross-center lg-cross-start">
+                <svg class="nav-icon s-fill-grey active">
+                    <use href="./src/assets/svg/icons.svg#home" />
+                </svg>
+                <span class="s-display-block">
+                    Inicio
+                </span>
+            </a>
+            <a href="#" class="nav-item smaller flex s-cross-center lg-cross-start">
+                <svg class="nav-icon s-fill-grey">
+                    <use href="./src/assets/svg/icons.svg#course" />
+                </svg>
+                <span class="s-display-block">
+                    Cursos
+                </span>
+            </a>
+            <a href="#" class="nav-item smaller flex s-cross-center lg-cross-start">
+                <svg class="nav-icon s-fill-grey">
+                    <use href="./src/assets/svg/icons.svg#comunity" />
+                </svg>
+                <span class="s-display-block">
+                    Mentorias
+                </span>
+            </a>
+            <a href="#" class="nav-item smaller flex s-cross-center lg-cross-start">
+                <svg class="nav-icon s-fill-grey">
+                    <use href="./src/assets/svg/icons.svg#talleres" />
+                </svg>
+                <span class="s-display-block">
+                    Talleres
+                </span>
+            </a>
+            <span class="nav-item smaller flex s-cross-center lg-cross-start desktop-none" id="openSearch">
+                <svg class="nav-icon s-fill-grey">
+                    <use href="./src/assets/svg/icons.svg#search" />
+                </svg>
+                <span class="s-display-block">
+                    Buscar
+                </span>
+            </span>
+            <div class="conversion-banner small">
+                Trabajamos para acompañarte en el proceso de convertirte en un mejor profesional.
+            </div>
+            
+        </nav>
+    </aside>
+    <main id="main">
+        <div class="slider-home ">
+            <div class="lg-box-container grid lg-grid-2 s-gap-xy-4">
+                <div class="flex s-cross-center">
+                   <div class="s-pxy-3 s-text-center lg-text-left">
+                    <h1 class="title color-light t1 s-font-extrabold s-mxy-0 s-pt-2 lg-pt-0">
+                        Nunca pares de aprender
+                        <span class="color-link t2 s-display-block">
+                            Estudia Programación, Diseño y Bases de datos
+                        </span>
+                        <span>
+                            ¡No te rindas!
+                        </span>
+                    </h1>
+                    <p class="normal color-text-alt s-pt-6">
+                        Una plataforma con nuevas formas de aprendizaje para profundizar en lo que quieres triunfar.
+                        Con clases 100% prácticos, concretas y enfocadas en las habilidades de mayor demanda laboral.
+                    </p>
+                    <a href="#" class="btn btn-light small s-mt-6 s-font-bold">
+                        Comienza a estudiar gratis
+                    </a>
+                   </div>
+                </div>
+                <div class="flex s-cross-center s-main-end slider-home-img s-pxy-3 lg-pr-5">
+                    <img src="./src/assets/img/public/static/slider.png" alt="" class="img-slider-home-max">
+                </div>
+            </div>
+        </div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias et nesciunt odio, voluptate, esse accusamus possimus veritatis assumenda quae tempora voluptas excepturi quis asperiores quod aut aliquid vitae eius officiis?
+        Reiciendis molestias asperiores eveniet quam laudantium, adipisci eligendi pariatur eaque blanditiis nesciunt alias, ipsa veritatis magnam, sapiente sint enim amet vel repellat optio suscipit maiores! Delectus hic vero velit veritatis?
+        Dolore ad explicabo voluptatum, ut maiores tempore natus, possimus doloremque, quidem consequuntur perferendis debitis? Numquam corporis quidem fuga enim saepe alias ducimus quibusdam, veniam necessitatibus magnam quisquam aut, autem temporibus.
+        Quaerat aperiam sed earum itaque nobis voluptates qui tempora magnam suscipit? Minima, aspernatur officiis? Molestias odit voluptate explicabo consectetur. Suscipit architecto autem nam, voluptatibus cumque consequatur fugiat beatae quaerat doloribus.
+        Ut veniam recusandae sapiente, exercitationem saepe at consequuntur accusantium officia. Ipsa placeat libero ut ad nesciunt harum possimus ducimus alias. Natus delectus molestiae est magnam, mollitia tempora quia nam possimus!
+        Earum quis ipsam perspiciatis! Eos soluta impedit ducimus. Deleniti voluptas ut voluptatem officiis omnis asperiores est laborum ducimus, veritatis provident, ipsum commodi quod dolor eius at maiores! Tenetur, hic dolores?
+        Officia commodi possimus quos dolorum eligendi eum doloremque nulla minima, reiciendis sunt, maiores culpa doloribus unde veniam cumque hic exercitationem omnis repellat nobis iure, ex nemo iusto nesciunt! Harum, numquam.
+        Consequuntur, eligendi eos quos voluptas nulla fuga assumenda recusandae iure pariatur nihil velit ipsa? Tempora quidem quae sunt sit veniam temporibus eum nisi impedit magnam deleniti, et voluptates voluptatem illum.
+        Molestias quae, quibusdam quasi aperiam, maiores minima tempora nihil voluptatum officiis suscipit ipsum provident, vitae perferendis adipisci et. Rem repudiandae optio excepturi debitis consectetur ducimus minus nulla accusantium, officiis assumenda.
+        Praesentium repellendus dignissimos, nulla error corporis blanditiis, quia deserunt deleniti suscipit nemo consequatur molestias sunt illo voluptatum, voluptates quis minus quidem dolorem similique voluptas. Officia, ipsum. Perferendis nihil repellat veniam?
+        Atque commodi iure eius similique quos ratione sit perspiciatis quidem hic repellendus vel quo nam tenetur, nulla consequuntur unde. Similique placeat iste voluptas cum cumque dolor fugiat laboriosam enim inventore.
+        Unde placeat autem fuga corporis officiis suscipit dolore facilis maiores ab reprehenderit neque, perspiciatis, obcaecati, reiciendis esse? Necessitatibus minima quam quaerat quisquam, libero eveniet harum reiciendis mollitia numquam magnam blanditiis?
+        Officiis eum aliquam, earum repellat magni natus repudiandae ad nulla unde, id tenetur ipsa inventore rerum facere aspernatur eligendi sequi ullam autem provident assumenda quisquam. Dignissimos earum consequatur quibusdam maxime.
+        Neque molestiae necessitatibus repellendus distinctio est ab quasi quae animi saepe, repudiandae, praesentium quas minima debitis exercitationem aperiam. Repellendus cupiditate ipsam in perferendis sed vitae natus odit, culpa dolor debitis?
+        Commodi reprehenderit consequatur modi et optio. Aliquid corrupti ipsa, dignissimos, dolorum molestias quasi, quisquam nesciunt quas quia sequi cupiditate veritatis sunt deserunt! Cumque amet repellat voluptate, ex obcaecati sint repudiandae.
+        Placeat eaque odio incidunt, quam enim, accusamus aperiam non aliquam nostrum quibusdam dolore consequatur veritatis obcaecati suscipit dolores necessitatibus. Consequatur doloremque nostrum earum provident! Porro ipsum placeat obcaecati quas qui.
+        Porro veniam animi, explicabo non sit vel? Delectus reprehenderit, ipsa adipisci nisi facere rerum corporis magni sed et numquam nemo esse debitis animi doloremque molestias ex recusandae autem tempora sapiente.
+        Modi impedit culpa laborum doloremque quis reiciendis non explicabo praesentium tempora eligendi fuga consequuntur sunt natus, animi qui error esse? Aliquam maxime repellendus recusandae quos ad sint facere quia at.
+        Dolor ullam, porro hic delectus odio corporis in incidunt ut, ipsa nobis vero quisquam accusamus numquam molestiae tenetur dolorem provident! Nulla magnam, ipsum dicta molestias rerum pariatur fuga sint beatae?
+        Voluptate quidem praesentium voluptatibus repellat voluptatem odio non incidunt ullam labore fugit est nesciunt quia, quam, explicabo consectetur asperiores repudiandae architecto nisi excepturi. Laboriosam doloribus dolore nostrum eligendi cum odio?
+        Error facere provident eligendi ut illum eveniet quo dicta illo natus adipisci veritatis sit excepturi soluta neque quaerat expedita fuga cupiditate eos, recusandae autem, dolores eius vitae totam? Quidem, soluta.
+        Adipisci sunt dolore optio labore! Id libero modi illo repellat cupiditate culpa magni consequatur? Ipsam nobis id quasi deserunt atque officia nam molestiae officiis asperiores doloremque, tempora soluta quos. Tempora.
+        Quisquam explicabo odit ea reiciendis, eligendi maiores nihil provident quae nulla sequi illo dolor debitis doloremque at saepe! Et nam voluptatibus eius quos magnam ipsam sunt obcaecati tempore qui corrupti!
+        Placeat molestiae sunt, quisquam ex quis sequi minus est voluptate enim eaque reprehenderit unde architecto assumenda pariatur in a iusto odit ab voluptas amet sapiente ipsam cum? Recusandae, adipisci consequatur?
+        Corporis pariatur excepturi harum a cumque placeat similique adipisci, totam, neque maiores nam quos numquam quidem aut velit quae! Voluptate incidunt velit suscipit quos quia fuga iusto tenetur cumque debitis.
+        Vel velit corporis distinctio quasi fugiat dolores a omnis natus fugit consectetur ut rem ducimus quidem amet, vero obcaecati odit aut minus hic dolor pariatur praesentium ipsa? Atque, corrupti dignissimos!
+        Laboriosam suscipit ut, obcaecati voluptatibus iusto odio. Vero odio quisquam obcaecati. Ullam fuga, soluta dolorum reiciendis blanditiis excepturi distinctio similique repellendus eveniet voluptatum expedita illo numquam dolores nulla quo maxime.
+        Fugiat possimus expedita corporis doloremque delectus maiores dolore officiis, ea corrupti voluptatem aliquam tempore sint! Reprehenderit itaque nisi nostrum est, eaque dolor voluptates cumque. Obcaecati, omnis minus. Incidunt, dolorem nostrum.
+        Sed id, commodi maxime aliquam doloribus a quos quam animi ipsa error numquam mollitia architecto sunt iure in maiores dolorem est odio voluptatum provident. Sint laboriosam fugiat hic quisquam commodi.
+        Officia odio fuga dolores totam! Veritatis similique praesentium libero exercitationem facere molestias ab laudantium, blanditiis ea, neque dolores nesciunt quos, voluptatem corrupti aspernatur fugiat consequatur! Enim, culpa. Nulla, a quas.
+    </main>
     
-
     <script src="src/js/menu.main.js" type="module"></script>
+    <script src="src/js/search.js" type="module"></script>
 </body>
 
 </html>

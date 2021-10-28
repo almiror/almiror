@@ -5,23 +5,26 @@
     --primary-alt         :#006ace;
     --secondary           :#3DB2FF;
     --secondary-alt       :#30a9fa;
-    --dark                :#22303a;
-    --dark-50             :#2a3b47;
-    --dark-alt            :#1a252d;
+    --dark                :#122231;
+    --dark-50             :#132d47;
+    --dark-alt            :#0e1925;
     --grey                :#a7a7a7;
     --warning             :#ffba42;
     --warning-alt         :#e5a638;
     --light               :#ffffff;
-    --body                :#fbfbfe;
+    --light-alt           :#ffffff;
+    --body                :var(--dark-alt);
     --danger              :#F24E59;
     --danger-alt          :#f18888;
-    --success             :#2dd280;   
+    --success             :#4ad395;   
     --success-50          :#6ce0a6; 
-    --btn-warning         :#ffc107;
-    --btn-warning-alt     :#FFA400;
+    --btn-warning         :#fca120;
+    --btn-warning-alt     :#f69110;
+    --yellow-300          :#ffdb9e;
     /*# Styles text*/
-    --text-color             :#697477;
-    --text-success           :#2dd280;
+    --text-color             :#c8cdd0;
+    --text-color-alt         :#738da6;
+    --text-success           :#4ad395;
     --text-danger            :#F24E59;
     --text-warning           :#ffc107;
     --text-light             :#ffffff;
@@ -33,7 +36,7 @@
 
 
     /*# Styles border*/
-    --border-color           :#eff3f5;
+    --border-color           :rgba(255,255,255,.1);
     --border-color-alt       :#e9eef0;
 
 
@@ -70,7 +73,6 @@
     --gap: 1rem;
     --max-width: 1200px;
 }
-
 @media screen and (min-width:1024px){
     :root{
     --h1-font-size        : 2.5rem;
