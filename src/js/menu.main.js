@@ -22,9 +22,10 @@ let backScroll = 0
     let domScroll = document.documentElement.scrollTop;
     if(domScroll < backScroll) {
         mainHeader.classList.remove("show")
-        console.log("MENU OCULTO")
+        qS('.course-aside-stiky').classList.remove('show')
     } else {
         mainHeader.classList.add("show")
+        qS('.course-aside-stiky').classList.add('show')
     }
     backScroll = domScroll
  })

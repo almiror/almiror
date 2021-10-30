@@ -1,0 +1,18 @@
+{
+  "name": "spa-curso",
+  "version": "1.0.0",
+  "description": "Nomenclatura principal (.grid)\r     * s-grid-1 ....... s-grid-12\r     * md-grid-1 ...... md-grid-12\r     * lg-grid-1 ...... lg-grid-12\r     * xl-grid-1 ...... xl-grid-12",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

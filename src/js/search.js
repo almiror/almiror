@@ -1,9 +1,10 @@
 import { iD,qS } from "../../docs/configurations/minimali.js";
 const searchInput = iD('seacrh-input')
+const resultSearch = iD('append-search-item')
 searchInput.addEventListener('keyup', () =>{
     if(searchInput.value.length <= 0){
         searchInput.parentNode.children[1].classList.remove('active')
-        iD('append-search-item').innerHTML = ""
+        resultSearch.innerHTML = ""
     } else {
         searchInput.parentNode.children[1].classList.add('active')        
         fetchLiveSearch(searchInput.value.toUpperCase())
@@ -11,24 +12,37 @@ searchInput.addEventListener('keyup', () =>{
 })
 searchInput.addEventListener('search', () =>{
     searchInput.parentNode.children[1].classList.remove('active')
-    iD('append-search-item').innerHTML = ""
+    resultSearch.innerHTML = ""
 })
 
 
+let itemAppend
 const fetchLiveSearch = (input) => {
+    resultSearch.innerHTML = ''
     fetch("./src/assets/json/api-search.json")
     .then(data => data.json())
     .then(response => {
-        response.map(item => {
-            if(item.title.toUpperCase().indexOf(input) > -1){
-                let itemAppend = `
+        for (let item of response) {
+            let nameCurso = item.title.toUpperCase()
+            if(nameCurso.indexOf(input) !== -1){
+                itemAppend = `
                     <li class="content-search-item" style="display:block">
                         <a href="${item.url}" class="small content-search-link">${item.title}</a>
                     </li>
                 `
-                iD('append-search-item').innerHTML = itemAppend
+                resultSearch.innerHTML += itemAppend
             } 
-        })
+        }
+        if(resultSearch.innerHTML === ""){
+            itemAppend = `
+                <li class="content-search-item" style="display:block">
+                    <span class="small content-search-link">
+                        Busqueda no encontrada
+                    </span>
+                </li>
+            `
+            resultSearch.innerHTML = itemAppend
+        }
     })
 }
 
