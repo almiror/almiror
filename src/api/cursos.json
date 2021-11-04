@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        "like": "1",
+        "title": "Curso de CSS Grid Layout - 2021",
+        "description": "Aprende a profundidad los fundamento de CSS GRID Layout y todo en la practica",
+        "poster": "./src/assets/img/public/poster-curso/css-grid-layout.png",
+        "views": "+200",
+        "date": "15 Nov. 2021",
+        "teachers": [
+            {
+                "poster": "./src/assets/img/public/teacher/julio.jpg",
+                "name": "Julio Q."
+            }
+        ],
+        "type":"Curso"
+    },
+    {
+        "id": "2",
+        "like": "1",
+        "title": "Curso de HTML3 Básico Nivel - 2021",
+        "description": "Aprende a profundidad los fundamento de HTML5 edicion 2021 y totalmente gratis",
+        "poster": "./src/assets/img/public/poster-curso/html-nivel-basico.png",
+        "views": "+800",
+        "date": "20 Nov. 2021",
+        "teachers": [
+            {
+                "poster": "./src/assets/img/public/teacher/julio.jpg",
+                "name": "Julio Q."
+            }
+        ],
+        "type":"Taller"
+    },
+    {
+        "id": "3",
+        "like": "1",
+        "title": "Curso de HTML3 Básico Nivel - 2021",
+        "description": "Aprende a profundidad los fundamento de HTML5 edicion 2021 y totalmente gratis",
+        "poster": "./src/assets/img/public/poster-curso/html-nivel-basico.png",
+        "views": "+800",
+        "date": "20 Nov. 2021",
+        "teachers": [
+            {
+                "poster": "./src/assets/img/public/teacher/julio.jpg",
+                "name": "Julio Q."
+            }
+        ],
+        "type":"Tutorial"
+    },
+    {
+        "id": "3",
+        "like": "1",
+        "title": "Curso de HTML3 Básico Nivel - 2021",
+        "description": "Aprende a profundidad los fundamento de HTML5 edicion 2021 y totalmente gratis",
+        "poster": "./src/assets/img/public/poster-curso/html-nivel-basico.png",
+        "views": "+800",
+        "date": "20 Nov. 2021",
+        "teachers": [
+            {
+                "poster": "./src/assets/img/public/teacher/julio.jpg",
+                "name": "Julio Q."
+            }
+        ],
+        "type":"Tutorial"
+    },
+    {
+        "id": "3",
+        "like": "1",
+        "title": "Curso de HTML3 Básico Nivel - 2021",
+        "description": "Aprende a profundidad los fundamento de HTML5 edicion 2021 y totalmente gratis",
+        "poster": "./src/assets/img/public/poster-curso/html-nivel-basico.png",
+        "views": "+800",
+        "date": "20 Nov. 2021",
+        "teachers": [
+            {
+                "poster": "./src/assets/img/public/teacher/julio.jpg",
+                "name": "Julio Q."
+            }
+        ],
+        "type":"Tutorial"
+    }
+]

@@ -779,10 +779,13 @@
 .color-primary{
     color: var(--primary);
 }
-.color-succes{
+.color-secondary{
+    color: var(--secondary);
+}
+.color-success{
     color: var(--text-success);
 }
-.color-succes-50{
+.color-success-50{
     color: var(--success-50);
 }
 .color-danger{
@@ -1121,14 +1124,104 @@
 .s-border-5{
     border: 5px solid var(--border-color);
 }
+.s-border-warning-1{
+    border: 1px solid var(--warning);
+}
+.s-border-warning-2{
+    border: 2px solid var(--warning);
+}
+.s-border-warning-3{
+    border: 3px solid var(--warning);
+}
+.s-border-warning-4{
+    border: 4px solid var(--warning);
+}
+.s-border-warning-5{
+    border: 5px solid var(--warning);
+}
+.s-border-danger-1{
+    border: 1px solid var(--danger);
+}
+.s-border-danger-2{
+    border: 2px solid var(--danger);
+}
+.s-border-danger-3{
+    border: 3px solid var(--danger);
+}
+.s-border-danger-4{
+    border: 4px solid var(--danger);
+}
+.s-border-danger-5{
+    border: 5px solid var(--danger);
+}
+.s-border-success-1{
+    border: 1px solid var(--success);
+}
+.s-border-success-2{
+    border: 2px solid var(--success);
+}
+.s-border-success-3{
+    border: 3px solid var(--success);
+}
+.s-border-success-4{
+    border: 4px solid var(--success);
+}
+.s-border-success-5{
+    border: 5px solid var(--success);
+}
+.s-border-primary-1{
+    border: 1px solid var(--primary);
+}
+.s-border-primary-2{
+    border: 2px solid var(--primary);
+}
+.s-border-primary-3{
+    border: 3px solid var(--primary);
+}
+.s-border-primary-4{
+    border: 4px solid var(--primary);
+}
+.s-border-primary-5{
+    border: 5px solid var(--primary);
+}
+.s-border-dark-body-1{
+    border: 1px solid var(--body-dark);
+}
+.s-border-dark-body-2{
+    border: 2px solid var(--body-dark);
+}
+.s-border-dark-body-3{
+    border: 3px solid var(--body-dark);
+}
+.s-border-dark-body-4{
+    border: 4px solid var(--body-dark);
+}
+.s-border-dark-body-5{
+    border: 5px solid var(--body-dark);
+}
 .bg-dark-body{
     background-color: var(--body-dark);
 }
 .bg-dark{
     background-color: var(--dark);
 }
-.bg-dark{
-    background-color: var(--dark);
+.bg-success{
+    background-color: var(--success);
+}
+.bg-success-50{
+    background-color: var(--success-50);
+}
+.bg-danger{
+    background-color: var(--danger);
+}
+.bg-warning{
+    background-color: var(--warning);
+}
+.bg-dark-alt{
+    background-color: var(--dark-50);
+}
+.bg-secondary{
+    background-color: var(--secondary);
 }
 .bg-dark-footer{
     background-color: var(--footer-dark);

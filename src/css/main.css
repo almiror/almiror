@@ -267,7 +267,17 @@
     filter: saturate(100%);
 }
 .card-course-type.course{
+    background-color: rgba(0, 158, 206, 0.589);
+    display: inline-flex;
+    padding: 0.2rem .4rem;
+}
+.card-course-type.taller{
     background-color: rgba(70, 196, 101, 0.589);
+    display: inline-flex;
+    padding: 0.2rem .4rem;
+}
+.card-course-type.tutorial{
+    background-color: rgba(250, 50, 50, 0.589);
     display: inline-flex;
     padding: 0.2rem .4rem;
 }
@@ -306,6 +316,60 @@
 .footer-item > span:hover{
     color: var(--success-50);
     cursor: pointer;
+}
+.min-w-card-curso{
+    min-width: 200px;
+}
+.s-scroll-y{
+    overflow-y: auto;
+}
+.s-scroll-y::-webkit-scrollbar{
+    height: 0;
+	background-color: var(--border-color);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.s-scroll-y::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(255,255,255,.05);
+	box-shadow: inset 0 0 6px rgba(255,255,255,.05);
+    background-color: rgba(255,255,255,.05);
+	border-right: 10px solid rgba(255,255,255,.05);
+}
+.s-scroll-y::-webkit-scrollbar-thumb:hover,
+.s-scroll-y::-webkit-scrollbar-thumb:active {
+  background-color: var(--dark);
+}
+.move-along-type-youtube{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background-color: var(--light);
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.s-scroll-y-none{
+    overflow-y: hidden;
+}
+.s-scroll-x-hidden{
+    overflow-x: visible;
+}
+.min-h-card-curso{
+    min-height: 4.5rem;
+}
+.slider-profile-container{
+    background-image: url(../assets/img/public/static/slider.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+.slider-profile{
+    min-height: 300px;
+    padding: 150px 1rem 1rem 1rem;
+    background: linear-gradient(transparent 50%, var(--body-dark) 50%);
+}
+.dark-img-gradient{
+    background: -webkit-radial-gradient(50% 50%,88.22% 88.22%,#59b3f3 0,#0d66a7 100%);
+    background: radial-gradient(88.22% 88.22% at 50% 50%,#ddce00 0,#b86901 100%);
 }
 @media screen and (min-width:1024px) {
     .main-header{
@@ -381,5 +445,9 @@
     }
     .separator-landing-page{
         padding: 2rem 2rem 2rem 1rem;
+    }
+    .slider-profile{
+        min-height: 300px;
+        padding: 150px 2.5rem 1rem 1rem;
     }
 }

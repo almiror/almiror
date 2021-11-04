@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1",
+        "title": "HTML",
+        "description": "Básico a",
+        "poster": "./src/assets/img/public/poster-curso/topics/html.png",
+        "nivel":"Avanzado"
+    },
+    {
+        "id": "2",
+        "title": "CSS",
+        "description": "Básico a",
+        "poster": "./src/assets/img/public/poster-curso/topics/css.png",
+        "nivel":"Avanzado"
+    },
+    {
+        "id": "3",
+        "title": "JavaScript",
+        "description": "Básico a",
+        "poster": "./src/assets/img/public/poster-curso/topics/javascript.png",
+        "nivel":"Avanzado"
+    },
+    {
+        "id": "4",
+        "title": "Vue.js",
+        "description": "Básico a",
+        "poster": "./src/assets/img/public/poster-curso/topics/vuejs.png",
+        "nivel":"Avanzado"
+    },
+    {
+        "id": "6",
+        "title": "React",
+        "description": "Básico a",
+        "poster": "./src/assets/img/public/poster-curso/topics/react.png",
+        "nivel":"Avanzado"
+    },
+    {
+        "id": "5",
+        "title": "Java",
+        "description": "Básico a",
+        "poster": "./src/assets/img/public/poster-curso/topics/java.png",
+        "nivel":"Avanzado"
+    },
+    {
+        "id": "7",
+        "title": "Muchos +",
+        "description": "Básico a",
+        "poster": "./src/assets/img/public/poster-curso/topics/mas.png",
+        "nivel":"Avanzado"
+    }
+]
