@@ -19,7 +19,7 @@ searchInput.addEventListener('search', () =>{
 let itemAppend
 const fetchLiveSearch = (input) => {
     resultSearch.innerHTML = ''
-    fetch("./src/assets/json/api-search.json")
+    fetch("./src/api/cursos.json")
     .then(data => data.json())
     .then(response => {
         for (let item of response) {

@@ -2,40 +2,43 @@ import { iD, qS, qSA } from "../../docs/configurations/minimali.js";
 
 const URL = "./src/api/cursos.json";
 const appCurso = iD("appCurso");
-let counterCurso = 0
+let counterCurso = 0;
 const componentContenido = (data) => {
+  data.reverse();
   for (const item of data) {
-    if(counterCurso < 4) {
-        if(item.type === "Tutorial"){
-            typeTutorial(item)
-        } else if(item.type === "Taller"){
-            typeTaller(item)
-        } else if(item.type === "Curso"){
-            typeCurso(item)
-        }
+    if (counterCurso < 4) {
+      if (item.type === "Tutorial") {
+        typeTutorial(item);
+      } else if (item.type === "Taller") {
+        typeTaller(item);
+      } else if (item.type === "Curso") {
+        typeCurso(item);
+      }
     }
-    counterCurso ++
-    console.log(counterCurso)
+    counterCurso++;
   }
 };
 const componentCurso = (data) => {
+  data.reverse();
   for (const item of data) {
-    if(item.type === "Curso") {
-        typeCurso(item);
+    if (item.type === "Curso") {
+      typeCurso(item);
     }
   }
 };
 const componentTaller = (data) => {
+  data.reverse();
   for (const item of data) {
-    if(item.type === "Taller") {
-        typeTaller(item);
+    if (item.type === "Taller") {
+      typeTaller(item);
     }
   }
 };
 const componentTutorial = (data) => {
+  data.reverse();
   for (const item of data) {
-    if(item.type === "Tutorial") {
-        typeTutorial(item);
+    if (item.type === "Tutorial") {
+      typeTutorial(item);
     }
   }
 };
@@ -46,21 +49,21 @@ if (URLPATH === "/cursos.html") {
     .then((response) => response.json())
     .then((data) => componentCurso(data));
 } else if (URLPATH === "/index.html" || URLPATH === "/") {
-    fetch(URL)
+  fetch(URL)
     .then((response) => response.json())
     .then((data) => componentContenido(data));
 } else if (URLPATH === "/taller.html") {
-    fetch(URL)
+  fetch(URL)
     .then((response) => response.json())
     .then((data) => componentTaller(data));
 } else if (URLPATH === "/tutorial.html") {
-    fetch(URL)
+  fetch(URL)
     .then((response) => response.json())
     .then((data) => componentTutorial(data));
 }
 
-const typeTutorial = item => {
-    appCurso.innerHTML += `
+const typeTutorial = (item) => {
+  appCurso.innerHTML += `
     <div class="s-relative card card-course s-hidden s-radius-xy-2 s-border-card-1 bg-dark-body">
         <div class="card-img-course-container s-hidden clip-card-img">
             <img src="${item.poster}" alt="${item.title}">
@@ -104,17 +107,17 @@ const typeTutorial = item => {
                 </span>
             </div>
             <div class="flex s-cross-center">
-                <a href="./docs/curso/css-grid-layout-2021.html" class="btn btn-transparent-light smaller">
+                <a href="${item.url}" class="btn btn-transparent-light smaller">
                     Ver curso
                 </a>
             </div>
         </div>
     </div>
-    `
-}
+    `;
+};
 
-const typeTaller = item => {
-    appCurso.innerHTML += `
+const typeTaller = (item) => {
+  appCurso.innerHTML += `
             <div class="s-relative card card-course s-hidden s-radius-xy-2 s-border-card-1 bg-dark-body">
                 <div class="card-img-course-container s-hidden clip-card-img">
                     <img src="${item.poster}" alt="${item.title}">
@@ -158,17 +161,17 @@ const typeTaller = item => {
                         </span>
                     </div>
                     <div class="flex s-cross-center">
-                        <a href="./docs/curso/css-grid-layout-2021.html" class="btn btn-transparent-light smaller">
+                        <a href="${item.url}" class="btn btn-transparent-light smaller">
                             Ver curso
                         </a>
                     </div>
                 </div>
             </div>
-            `
-}
+            `;
+};
 
-const typeCurso = item => {
-    appCurso.innerHTML += `
+const typeCurso = (item) => {
+  appCurso.innerHTML += `
             <div class="s-relative card card-course s-hidden s-radius-xy-2 s-border-card-1 bg-dark-body">
                 <div class="card-img-course-container s-hidden clip-card-img">
                     <img src="${item.poster}" alt="${item.title}">
@@ -212,11 +215,11 @@ const typeCurso = item => {
                         </span>
                     </div>
                     <div class="flex s-cross-center">
-                        <a href="./docs/curso/css-grid-layout-2021.html" class="btn btn-transparent-light smaller">
+                        <a href="${item.url}" class="btn btn-transparent-light smaller">
                             Ver curso
                         </a>
                     </div>
                 </div>
             </div>
-            `
-}
+            `;
+};

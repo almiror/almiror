@@ -1,82 +1,88 @@
-[
+[   
+    {
+        "id": "2000",
+        "title": "Cursos de Programación",
+        "type":"Hidden",
+        "url": "./cursos.html"
+    },
+    {
+        "id": "2001",
+        "title": "Talleres de Programación",
+        "type":"Hidden",
+        "url": "./taller.html"
+    },
+    {
+        "id": "2002",
+        "title": "Tutoriales de Programación",
+        "type":"Hidden",
+        "url": "./tutorial.html"
+    },
     {
         "id": "1",
         "like": "1",
-        "title": "Curso de CSS Grid Layout - 2021",
-        "description": "Aprende a profundidad los fundamento de CSS GRID Layout y todo en la practica",
+        "title": "Curso Práctico de HTML, CSS y JavaScript ",
+        "description": "Aprende a estructurar sitios web con HTML para luego darle un buen diseño con CSS y vida con JavaScript",
         "poster": "./src/assets/img/public/poster-curso/css-grid-layout.png",
-        "views": "+200",
-        "date": "15 Nov. 2021",
+        "views": "+50",
+        "date": "ESTRENO 15 Nov. 2021",
         "teachers": [
             {
                 "poster": "./src/assets/img/public/teacher/julio.jpg",
                 "name": "Julio Q."
             }
         ],
-        "type":"Curso"
+        "type":"Curso",
+        "url": "./curso/curso-practico-de-html-css-javascript-2021.html"
     },
     {
         "id": "2",
         "like": "1",
-        "title": "Curso de HTML3 Básico Nivel - 2021",
-        "description": "Aprende a profundidad los fundamento de HTML5 edicion 2021 y totalmente gratis",
-        "poster": "./src/assets/img/public/poster-curso/html-nivel-basico.png",
-        "views": "+800",
-        "date": "20 Nov. 2021",
+        "title": "Curso Básico de HTML5 edición 2021",
+        "description": "Con este curso Aprendes la semantica de HTML5 y a estructurar un sitio web de manera correcta.",
+        "poster": "./src/assets/img/public/poster-curso/css-grid-layout.png",
+        "views": "+50",
+        "date": "ESTRENO 15 Nov. 2021",
         "teachers": [
             {
                 "poster": "./src/assets/img/public/teacher/julio.jpg",
                 "name": "Julio Q."
             }
         ],
-        "type":"Taller"
+        "type":"Curso",
+        "url": "./curso/curso-basico-de-html5-2021.html"
     },
     {
         "id": "3",
         "like": "1",
-        "title": "Curso de HTML3 Básico Nivel - 2021",
-        "description": "Aprende a profundidad los fundamento de HTML5 edicion 2021 y totalmente gratis",
-        "poster": "./src/assets/img/public/poster-curso/html-nivel-basico.png",
-        "views": "+800",
-        "date": "20 Nov. 2021",
+        "title": "Playlist con HTML, CSS y JavaScript",
+        "description": "En este taller aprenderas a crear tu propio reproductor de playlist usando  JavaScript moderno.",
+        "poster": "./src/assets/img/public/poster-curso/css-grid-layout.png",
+        "views": "+50",
+        "date": "ESTRENO 15 Nov. 2021",
         "teachers": [
             {
                 "poster": "./src/assets/img/public/teacher/julio.jpg",
                 "name": "Julio Q."
             }
         ],
-        "type":"Tutorial"
+        "type":"Taller",
+        "url": "./curso/playlist-con-html-css-javascript-2021.html"
     },
     {
-        "id": "3",
+        "id": "4",
         "like": "1",
-        "title": "Curso de HTML3 Básico Nivel - 2021",
-        "description": "Aprende a profundidad los fundamento de HTML5 edicion 2021 y totalmente gratis",
-        "poster": "./src/assets/img/public/poster-curso/html-nivel-basico.png",
-        "views": "+800",
-        "date": "20 Nov. 2021",
+        "title": "Menu responsive con HTML y CSS",
+        "description": "En este tutorial crearemos un menu responsive usando CSS y HTML para que puedas aplicarlo en cualquier proyecto",
+        "poster": "./src/assets/img/public/poster-curso/css-grid-layout.png",
+        "views": "+50",
+        "date": "ESTRENO 15 Nov. 2021",
         "teachers": [
             {
                 "poster": "./src/assets/img/public/teacher/julio.jpg",
                 "name": "Julio Q."
             }
         ],
-        "type":"Tutorial"
-    },
-    {
-        "id": "3",
-        "like": "1",
-        "title": "Curso de HTML3 Básico Nivel - 2021",
-        "description": "Aprende a profundidad los fundamento de HTML5 edicion 2021 y totalmente gratis",
-        "poster": "./src/assets/img/public/poster-curso/html-nivel-basico.png",
-        "views": "+800",
-        "date": "20 Nov. 2021",
-        "teachers": [
-            {
-                "poster": "./src/assets/img/public/teacher/julio.jpg",
-                "name": "Julio Q."
-            }
-        ],
-        "type":"Tutorial"
+        "type":"Tutorial",
+        "url": "./curso/menu-responsive-con-html-css-2021.html"
     }
 ]
