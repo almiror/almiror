@@ -3,19 +3,19 @@
         "id": "2000",
         "title": "Cursos de Programación",
         "type":"Hidden",
-        "url": "./cursos.html"
+        "url": "../cursos.html"
     },
     {
         "id": "2001",
         "title": "Talleres de Programación",
         "type":"Hidden",
-        "url": "./taller.html"
+        "url": "../taller.html"
     },
     {
         "id": "2002",
         "title": "Tutoriales de Programación",
         "type":"Hidden",
-        "url": "./tutorial.html"
+        "url": "../tutorial.html"
     },
     {
         "id": "1",

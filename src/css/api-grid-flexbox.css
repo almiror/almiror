@@ -243,6 +243,10 @@
 .md-sticky-05,
 .lg-sticky-05,
 .xl-sticky-05,
+.s-sticky-00,
+.md-sticky-00,
+.lg-sticky-00,
+.xl-sticky-00,
 .s-sticky-0,
 .md-sticky-0,
 .lg-sticky-0,
@@ -255,6 +259,9 @@
 }
 .s-sticky-0{
     top: calc(var(--header-height) + 0);
+}
+.s-sticky-00{
+    top: 0;
 }
 .s-sticky-none {
     position: static;

@@ -15,11 +15,21 @@ searchInput.addEventListener('search', () =>{
     resultSearch.innerHTML = ""
 })
 
+let URLSEACHAPI = window.location;
+const  getURLPath = () => URLSEACHAPI.pathname.substring(0, URLSEACHAPI.pathname.lastIndexOf('/') + 1);
+
+if(getURLPath() == "/curso/") {
+    URLSEACHAPI = "../src/api/cursos.json"
+} else {
+    URLSEACHAPI = "./src/api/cursos.json"
+}
+
+
 
 let itemAppend
 const fetchLiveSearch = (input) => {
     resultSearch.innerHTML = ''
-    fetch("./src/api/cursos.json")
+    fetch(URLSEACHAPI)
     .then(data => data.json())
     .then(response => {
         for (let item of response) {
