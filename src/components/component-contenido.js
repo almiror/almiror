@@ -62,8 +62,9 @@ if (URLPATH === "/cursos.html") {
     .then((data) => componentTutorial(data));
 }
 
+let hidennHREFCurso = `pointer-events: none;cursor: default;color:rgba(255,255,255,.3)`
 const typeTutorial = (item) => {
-  appCurso.innerHTML += `
+    appCurso.innerHTML += `
     <div class="s-relative card card-course s-hidden s-radius-xy-2 s-border-card-1 bg-dark-body">
         <div class="card-img-course-container s-hidden clip-card-img">
             <img src="${item.poster}" alt="${item.title}">
@@ -100,15 +101,15 @@ const typeTutorial = (item) => {
         <div class="bg-dark flex s-main-justify s-pxy-2 s-cross-center">
             <div class="flex s-cross-center">
                 <div class="s-hidden s-img-30 s-radius-xy-50 s-border-danger-2">
-                    <img src="${item.teachers[0].poster}" alt="Docente Julio QUiñones Illaris">
+                    <img src="${item.teachers[0].poster}" alt="${item.teachers[0].name}" >
                 </div>
-                <span class="small color-text s-pl-2 s-radius-xy-2 s-row-text-1">
+                <span class="small color-text s-pl-2 s-radius-xy-2 s-row-text-1" title="${item.teachers[0].name}">
                 ${item.teachers[0].name}
                 </span>
             </div>
             <div class="flex s-cross-center">
-                <a href="${item.url}" class="btn btn-transparent-light smaller">
-                    Ver curso
+                <a href="${item.url}" class="btn btn-transparent-light smaller" style="${item.stateurl==="false"? hidennHREFCurso:""}">
+                    Ver tutorial
                 </a>
             </div>
         </div>
@@ -154,15 +155,15 @@ const typeTaller = (item) => {
                 <div class="bg-dark flex s-main-justify s-pxy-2 s-cross-center">
                     <div class="flex s-cross-center">
                         <div class="s-hidden s-img-30 s-radius-xy-50 s-border-success-2">
-                            <img src="${item.teachers[0].poster}" alt="Docente Julio QUiñones Illaris">
+                            <img src="${item.teachers[0].poster}" alt="${item.teachers[0].name}">
                         </div>
-                        <span class="small color-text s-pl-2 s-radius-xy-2 s-row-text-1">
+                        <span class="small color-text s-pl-2 s-radius-xy-2 s-row-text-1" title="${item.teachers[0].name}">
                         ${item.teachers[0].name}
                         </span>
                     </div>
                     <div class="flex s-cross-center">
-                        <a href="${item.url}" class="btn btn-transparent-light smaller">
-                            Ver curso
+                        <a href="${item.url}" class="btn btn-transparent-light smaller"  style="${item.stateurl==="false"? hidennHREFCurso:""}">
+                            Ver taller
                         </a>
                     </div>
                 </div>
@@ -208,14 +209,14 @@ const typeCurso = (item) => {
                 <div class="bg-dark flex s-main-justify s-pxy-2 s-cross-center">
                     <div class="flex s-cross-center">
                         <div class="s-hidden s-img-30 s-radius-xy-50 s-border-primary-2">
-                            <img src="${item.teachers[0].poster}" alt="Docente Julio QUiñones Illaris">
+                            <img src="${item.teachers[0].poster}" alt="${item.teachers[0].name}">
                         </div>
-                        <span class="small color-text s-pl-2 s-radius-xy-2 s-row-text-1">
+                        <span class="small color-text s-pl-2 s-radius-xy-2 s-row-text-1" title="${item.teachers[0].name}">
                         ${item.teachers[0].name}
                         </span>
                     </div>
                     <div class="flex s-cross-center">
-                        <a href="${item.url}" class="btn btn-transparent-light smaller">
+                        <a href="${item.url}" class="btn btn-transparent-light smaller"  style="${item.stateurl==="false"? hidennHREFCurso:""}">
                             Ver curso
                         </a>
                     </div>

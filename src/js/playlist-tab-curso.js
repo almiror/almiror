@@ -42,8 +42,9 @@ let containerItemTemarys = `
 `
 const abstractionData= (data) => {
     data.map(item => {
-        if(item.id === "1"){
+        if(item.id === iD('Key000Vi01').innerText){ 
             iD('title').innerText = item.title
+            document.title = item.title
             for (let i = 0; i < item.module.length; i++) {
                 getContenItemPlaylist.innerHTML += containerItemTemarys
                 let listItemTitle = qSA('.temary-title')
@@ -51,7 +52,7 @@ const abstractionData= (data) => {
                 listItemTitle[i].insertAdjacentText("afterbegin", `${counterItemVideo}: ${item.module[i].title}`)
                 for (let j = 0; j < item.module[i].temary.length; j++) {
                     subitemsTemaries[i].innerHTML += `
-                    <li class="temary-subitem s-pxy-2 color-text-alt" urlVideoPlayer="${item.module[i].temary[j].url}" descriptionVideo="${item.module[i].temary[j].description}">
+                    <li class="temary-subitem s-pxy-2 color-text-alt" urlVideoPlayer="${item.module[i].temary[j].url}" descriptionVideo="${item.module[i].temary[j].description}" date-publication="Publicado: ${item.module[i].temary[j].datePublication}">
                     ${counterItemVideo}.${counterSubItemVideo}: ${item.module[i].temary[j].title}
                     </li>                    
                     `
