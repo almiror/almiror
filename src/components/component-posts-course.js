@@ -21,6 +21,7 @@ fetch(URLPOSTCourses)
                     asidePublicTextCourse.children[0].children[0].children[1].children[0].style.color = "rgba(255,255,255,.5)"
                     asidePublicTextCourse.children[0].children[0].children[1].children[0].style.borderColor = "rgba(255,255,255,.07)"
                     asidePublicTextCourse.children[0].children[0].children[1].children[0].style.backgroundColor = "rgba(255,255,255,.1)"
+                    asidePublicTextCourse.children[0].children[0].children[1].children[0].innerText = "Grabando.. 🎧"
                 }
             }
         }

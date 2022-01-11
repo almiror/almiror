@@ -18,14 +18,18 @@ showMenu.addEventListener('click', () => {
 
 // Scroll hidden menu
 let backScroll = 0
- window.addEventListener('scroll', () => {
+window.addEventListener('scroll', () => {
     let domScroll = document.documentElement.scrollTop;
     if(domScroll < backScroll) {
         mainHeader.classList.remove("show")
+        if(qS('.course-aside-stiky')){
         qS('.course-aside-stiky').classList.remove('show')
+        }
     } else {
         mainHeader.classList.add("show")
-        qS('.course-aside-stiky').classList.add('show')
+        if(qS('.course-aside-stiky')) {
+            qS('.course-aside-stiky').classList.add('show')
+        }
     }
     backScroll = domScroll
- })
+    })

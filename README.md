@@ -226,3 +226,7 @@ Nomenclatura principal (.grid)
     * md-border-1 ...... md-border-5 
     * lg-border-1 ...... lg-border-5 
     * xl-border-1 ...... xl-border-5 
+
+# PARA LLENAR MÁS CURSOS MODIFICAR LOS ARCHIVOS
+* cursos.json
+* temary.json

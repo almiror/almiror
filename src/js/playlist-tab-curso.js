@@ -42,7 +42,7 @@ let containerItemTemarys = `
 `
 const abstractionData= (data) => {
     data.map(item => {
-        if(item.id === iD('Key000Vi01').innerText){ 
+        if(item.id === document.body.getAttribute('movielocation')){ 
             iD('title').innerText = item.title
             document.title = item.title
             for (let i = 0; i < item.module.length; i++) {
@@ -77,8 +77,9 @@ window.onload = () =>{
     }
 }
 const dropDownTitleVideo = iD('dropDownDescription')
+let lineClickAcitveToggle = dropDownTitleVideo.parentNode
 const dropDownDescriptionVideo = qS('.container-controls-videodescription')
-dropDownTitleVideo.addEventListener('click', e => {
+lineClickAcitveToggle.addEventListener('click', e => {
     dropDownDescriptionVideo.classList.toggle('active')
     if(dropDownDescriptionVideo.classList.contains('active')) {
         dropDownTitleVideo.children[0].style.transform = "rotate(-180deg)"

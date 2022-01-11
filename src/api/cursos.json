@@ -20,7 +20,7 @@
     {
         "id": "1",
         "like": "1",
-        "title": "Curso Práctico de HTML, CSS y JavaScript ",
+        "title": "Curso Práctico de Html, Css y JavaScript Edición 2022",
         "description": "Aprende a estructurar sitios web con HTML para luego darle un buen diseño con CSS y vida con JavaScript",
         "poster": "./src/assets/img/public/poster-curso/css-grid-layout.png",
         "views": "+100",
@@ -32,7 +32,7 @@
             }
         ],
         "type":"Curso",
-        "url": "../cursos/curso-practico-de-html-css-javascript-2021.html",
+        "url": "../cursos/curso-practico-de-html-css-javascript-2022.html",
         "stateurl": "true"
     },
     {
@@ -87,6 +87,6 @@
         ],
         "type":"Tutorial",
         "url": "../cursos/menu-responsive-con-html-css-2021.html",
-        "stateurl": "true"
+        "stateurl": "false"
     }
 ]
