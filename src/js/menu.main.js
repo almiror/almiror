@@ -32,4 +32,12 @@ window.addEventListener('scroll', () => {
         }
     }
     backScroll = domScroll
+})
+ if(iD('btnHelpCuestion')) {
+    iD('btnHelpCuestion').addEventListener('click', () => {
+        window.open('https://wa.link/1tze1j', '_blank')
+        // window.location.href = "https://wa.link/1tze1j"
     })
+ }
+
+ 

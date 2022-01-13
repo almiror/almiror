@@ -274,7 +274,7 @@
     },
     {
         "id": "2",
-        "title": "Curso de HTML Desde cero edición 2022",
+        "title": "Taller Reproductor de Música Responsive con Html, Css y JavaScript",
         "module": [
             {
                 "id": "1",
@@ -322,6 +322,26 @@
                             "title": "Titulos y párrafos",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "datePublication": "30 Nov. 2021"
+                        }
+                ]
+            }
+        ]
+
+    },
+    {
+        "id": "3",
+        "title": "Tutorial Logo de Figma con CSS (Usando Background)",
+        "module": [
+            {
+                "id": "1",
+                "title": "Video Tutorial",
+                "temary" :[
+                    
+                        {
+                            "title": "Logo de Figma con CSS (Usando Background)",
+                            "url": "eBAWjhfqQR0",
+                            "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam voluptatem laudantium praesentium illo. Harum doloremque libero, suscipit placeat aut eaque animi illum quaerat quia, consectetur pariatur.",
                             "datePublication": "30 Nov. 2021"
                         }
                 ]

@@ -56,8 +56,8 @@
     {
         "id": "3",
         "like": "1",
-        "title": "Playlist con HTML, CSS y JavaScript",
-        "description": "En este taller aprenderas a crear tu propio reproductor de playlist usando  JavaScript moderno.",
+        "title": "Taller Reproductor de Música Responsive con Html, Css y JavaScript",
+        "description": "En este taller aprenderas a crear tu propio reproductor de música usando  JavaScript moderno.",
         "poster": "./src/assets/img/public/poster-curso/css-grid-layout.png",
         "views": "0",
         "date": "Estreno 01 Feb. 2022",
@@ -68,13 +68,13 @@
             }
         ],
         "type":"Taller",
-        "url": "../cursos/playlist-con-html-css-javascript-2021.html",
+        "url": "../taller/taller-reproductor-de-musica-responsive-con-html-css-js.html",
         "stateurl": "false"
     },
     {
         "id": "4",
         "like": "1",
-        "title": "Menu responsive con HTML y CSS",
+        "title": "Tutorial Logo de Figma con CSS (Usando Background)",
         "description": "En este tutorial crearemos un menu responsive usando CSS y HTML para que puedas aplicarlo en cualquier proyecto",
         "poster": "./src/assets/img/public/poster-curso/css-grid-layout.png",
         "views": "0",
@@ -86,7 +86,7 @@
             }
         ],
         "type":"Tutorial",
-        "url": "../cursos/menu-responsive-con-html-css-2021.html",
+        "url": "../tutorial/tutorial-logo-de-figma-usando-background-css.html",
         "stateurl": "false"
     }
 ]

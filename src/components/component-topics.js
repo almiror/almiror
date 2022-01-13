@@ -1,4 +1,4 @@
-import { iD} from "../../docs/configurations/minimali.js";
+import { iD, qS, qSA} from "../../docs/configurations/minimali.js";
 
 const URL = "./src/api/popular-topics.json";
 const appPouplarTopics = iD("move-along");
@@ -25,7 +25,7 @@ if (URLPATH === "/cursos.html") {
 
 const containerPopularTopics = item => {
     appPouplarTopics.innerHTML += `
-        <div class="s-relative s-pxy-2 card s-hidden s-radius-xy-1 s-border-1 grid s-grid-12 s-cross-center bg-dark-body min-w-card-curso">
+        <div class="s-relative s-pxy-2 card s-hidden s-radius-xy-1 s-border-1 grid s-grid-12 s-cross-center bg-dark-body min-w-card-curso item-popular-cants">
             <div class="s-radius-xy-50 s-img-40 s-border-3 s-hidden s-mr-2 s-cols-4">
                 <img src="${item.poster}" alt="${item.title}">
             </div>
@@ -40,3 +40,32 @@ const containerPopularTopics = item => {
         </div>
             `
 }
+
+
+// OBSERVER PARA TEMAS POPULARES Y OCULTAR EL BOTON DE AVANCE 
+
+ window.onload = ()  => {
+     const itemToppicPopularChildrens = qSA('.item-popular-cants')
+    let countItemTopicCourse = 0
+    itemToppicPopularChildrens.forEach(item => {
+        countItemTopicCourse ++
+        if (itemToppicPopularChildrens.length - 1 >= countItemTopicCourse ) item.classList.remove('item-popular-cants')
+    })
+
+    const observerTemaryPopular = new IntersectionObserver( (entradas, observador) => {
+        entradas.forEach(entrada => {
+            if(entrada.isIntersecting) {
+                appPouplarTopics.parentNode.children[1].style.visibility = "hidden"
+            } else  {
+                appPouplarTopics.parentNode.children[1].style.visibility = "visible"
+            }
+        })
+    }, {
+        threshold: 1,
+        rootMargin: '0px 0px 0px 40%'
+    })
+    const topicObserver = qSA('.item-popular-cants')
+    topicObserver.forEach(headers => {
+        observerTemaryPopular.observe(headers)
+    });
+ }
