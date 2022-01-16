@@ -33,15 +33,18 @@ const fetchLiveSearch = (input) => {
     .then(data => data.json())
     .then(response => {
         for (let item of response) {
-            let nameCurso = item.title.toUpperCase()
-            if(nameCurso.indexOf(input) !== -1){
-                itemAppend = `
-                    <li class="content-search-item" style="display:block">
-                        <a href="${item.url}" class="small content-search-link">${item.title}</a>
-                    </li>
-                `
-                resultSearch.innerHTML += itemAppend
-            } 
+            if(item.stateurl === "true") {
+                let nameCurso = item.title.toUpperCase()
+                if(nameCurso.indexOf(input) !== -1){
+                    itemAppend = `
+                        <li class="content-search-item" style="display:block">
+                            <a href="${item.url}" class="small content-search-link">${item.title}</a>
+                        </li>
+                    `
+                    resultSearch.innerHTML += itemAppend
+                }
+            }
+             
         }
         if(resultSearch.innerHTML === ""){
             itemAppend = `

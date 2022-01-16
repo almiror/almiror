@@ -109,7 +109,7 @@ const typeTutorial = (item) => {
             </div>
             <div class="flex s-cross-center">
                 <a href="${item.url}" class="btn btn-transparent-light smaller" style="${item.stateurl==="false"? hidennHREFCurso:""}">
-                    Ver tutorial
+                ${item.stateurl==="false"? 'Grabando... 🎧':`Ver ${item.type}`}
                 </a>
             </div>
         </div>
@@ -163,7 +163,7 @@ const typeTaller = (item) => {
                     </div>
                     <div class="flex s-cross-center">
                         <a href="${item.url}" class="btn btn-transparent-light smaller"  style="${item.stateurl==="false"? hidennHREFCurso:""}">
-                            Ver taller
+                        ${item.stateurl==="false"? 'Grabando... 🎧':`Ver ${item.type}`}
                         </a>
                     </div>
                 </div>
@@ -217,7 +217,7 @@ const typeCurso = (item) => {
                     </div>
                     <div class="flex s-cross-center">
                         <a href="${item.url}" class="btn btn-transparent-light smaller"  style="${item.stateurl==="false"? hidennHREFCurso:""}">
-                            Ver curso
+                        ${item.stateurl==="false"? 'Grabando... 🎧':`Ver ${item.type}`}
                         </a>
                     </div>
                 </div>
