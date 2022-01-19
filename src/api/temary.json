@@ -12,13 +12,15 @@
                             "title": "Introducción al curso",
                             "url": "eBAWjhfqQR0",
                             "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam voluptatem laudantium praesentium illo. Harum doloremque libero, suscipit placeat aut eaque animi illum quaerat quia, consectetur pariatur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Herramientas para llevar el curso",
-                            "url": "KgdDQGSL0qs",
+                            "url": "",
                             "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam ",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         }
                 ]
             },
@@ -29,63 +31,73 @@
                     
                         {
                             "title": "¿Qué es HTML?",
-                            "url": "nCB1gEkRZ1g",
+                            "url": "",
                             "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam voluptatem laudantium praesentium illo. Harum doloremque libero, suscipit placeat aut eaque animi illum quaerat quia, consectetur pariatur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Sintaxis del lenguage HTML",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Conociendo HEAD y BODY",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Titulos y párrafos",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Etiquetas de agrupación de contenido y texto",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Enlaces",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Listas",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Imágenes y Videos",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Tablas",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Formularios",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         }
                 ]
             },
@@ -97,55 +109,64 @@
                             "title": "¿Qué es CSS?",
                             "url": "nCB1gEkRZ1g",
                             "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam voluptatem laudantium praesentium illo. Harum doloremque libero, suscipit placeat aut eaque animi illum quaerat quia, consectetur pariatur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Conectando HTML y CSS",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Sintaxis de CSS",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Selectores",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Modelo de cajas",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Pseudoclases",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Textos",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Flexbox",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Grid",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         }
                 ]
             },
@@ -157,61 +178,71 @@
                             "title": "¿Qué es JavaScript?",
                             "url": "nCB1gEkRZ1g",
                             "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam voluptatem laudantium praesentium illo. Harum doloremque libero, suscipit placeat aut eaque animi illum quaerat quia, consectetur pariatur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Hola Mundo desde JavaScript",
                             "url": "knVwokXITGI",
                             "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam ",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Comentarios",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Variables y constantes",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Tipos de datos",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Operadores",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Ciclos y Condicionales",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Funciones",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Arreglos y Objetos",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Ejercicio práctico",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         }
                 ]
             },
@@ -223,49 +254,57 @@
                             "title": "Estructura del proyecto",
                             "url": "nCB1gEkRZ1g",
                             "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam voluptatem laudantium praesentium illo. Harum doloremque libero, suscipit placeat aut eaque animi illum quaerat quia, consectetur pariatur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Menu del portafolio",
                             "url": "knVwokXITGI",
                             "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam ",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Slider",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Proyectos recientes",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Habilidades",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Contáctame",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Footer",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Publicar proyecto en Github Page",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         }
                 ]
             }
@@ -285,13 +324,15 @@
                             "title": "Introducción al curso",
                             "url": "eBAWjhfqQR0",
                             "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam voluptatem laudantium praesentium illo. Harum doloremque libero, suscipit placeat aut eaque animi illum quaerat quia, consectetur pariatur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Herramientas para llevar el curso",
                             "url": "KgdDQGSL0qs",
                             "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam ",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         }
                 ]
             },
@@ -304,25 +345,29 @@
                             "title": "¿Qué es HTML?",
                             "url": "nCB1gEkRZ1g",
                             "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam voluptatem laudantium praesentium illo. Harum doloremque libero, suscipit placeat aut eaque animi illum quaerat quia, consectetur pariatur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Sintaxis del lenguage HTML",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Conociendo HEAD y BODY",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         },
                         {
                             "title": "Titulos y párrafos",
                             "url": "M26iIqmqWkI",
                             "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         }
                 ]
             }
@@ -342,7 +387,8 @@
                             "title": "Logo de Figma con CSS (Usando Background)",
                             "url": "eBAWjhfqQR0",
                             "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam voluptatem laudantium praesentium illo. Harum doloremque libero, suscipit placeat aut eaque animi illum quaerat quia, consectetur pariatur.",
-                            "datePublication": "30 Nov. 2021"
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com"
                         }
                 ]
             }

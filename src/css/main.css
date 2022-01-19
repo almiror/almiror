@@ -540,6 +540,48 @@
                     0 0 0 1px rgba(255, 60, 0, 0.09);
     }
 }
+
+
+.alert-course{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 21, 51, 0.774);
+    z-index: var(--z-modal-alt);
+}
+.alert-container-item{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: alert-animation  1s;
+    transition: all .25s;
+    background-color: rgba(18, 21, 51, 0.877);
+}
+@keyframes alert-animation {
+    0% {
+        top: -100%;
+    }
+    60% {
+        top: 50%;
+    }
+    80% {
+        top: 40%;
+    }
+    100% {
+        top: 50%;
+    }
+}
+.bg-rgb-light-50{
+    background-color: rgba(255,255,255,.02);
+}
+.video-item-icon-translate-15{
+    transform: translateY(.15rem);
+}
+
+
+
 @media screen and (min-width:1024px) {
     .main-header{
         grid-template-columns: auto 1fr;

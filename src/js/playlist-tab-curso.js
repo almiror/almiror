@@ -51,11 +51,30 @@ const abstractionData= (data) => {
                 let subitemsTemaries = qSA('.subitemstemaries')
                 listItemTitle[i].insertAdjacentText("afterbegin", `${counterItemVideo}: ${item.module[i].title}`)
                 for (let j = 0; j < item.module[i].temary.length; j++) {
-                    subitemsTemaries[i].innerHTML += `
-                    <li class="temary-subitem s-pxy-2 color-text-alt" urlVideoPlayer="${item.module[i].temary[j].url}" descriptionVideo="${item.module[i].temary[j].description}" date-publication="Publicado: ${item.module[i].temary[j].datePublication}">
-                    ${counterItemVideo}.${counterSubItemVideo}: ${item.module[i].temary[j].title}
-                    </li>                    
-                    `
+
+                    if(item.module[i].temary[j].url === "") {
+                        subitemsTemaries[i].innerHTML += `
+                        <li class="temary-subitem s-pxy-2 color-text-alt flex s-cross-baseline" urlVideoPlayer="${item.module[i].temary[j].url}" descriptionVideo="${item.module[i].temary[j].description}" date-publication="Publicado: ${item.module[i].temary[j].datePublication}" downloadProyect="${item.module[i].temary[j].urlProyect}">
+                        <div class="video-item-icon-translate-15">
+                            <svg class="s-img-15 s-fill-text-alt s-mr-2">
+                                <use href="../src/assets/svg/icons.svg#closed-icon" />
+                            </svg>
+                        </div>
+                         ${counterItemVideo}.${counterSubItemVideo}: ${item.module[i].temary[j].title}
+                        </li>                    
+                        `
+                    } else  {
+                        subitemsTemaries[i].innerHTML += `
+                        <li class="temary-subitem s-pxy-2 color-text-alt flex s-cross-start" urlVideoPlayer="${item.module[i].temary[j].url}" descriptionVideo="${item.module[i].temary[j].description}" date-publication="Publicado: ${item.module[i].temary[j].datePublication}" downloadProyect="${item.module[i].temary[j].urlProyect}">
+                        <div class="video-item-icon-translate-15">
+                            <svg class="s-img-15 s-fill-text-alt s-mr-2">
+                                <use href="../src/assets/svg/icons.svg#play-circled" />
+                            </svg>
+                        </div>
+                         ${counterItemVideo}.${counterSubItemVideo}: ${item.module[i].temary[j].title}
+                        </li>                    
+                        `
+                    }
                     counterSubItemVideo++
                 }
                 counterItemVideo ++
