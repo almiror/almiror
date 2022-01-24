@@ -11,300 +11,293 @@
                         {
                             "title": "Introducción al curso",
                             "url": "eBAWjhfqQR0",
-                            "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam voluptatem laudantium praesentium illo. Harum doloremque libero, suscipit placeat aut eaque animi illum quaerat quia, consectetur pariatur.",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Herramientas para llevar el curso",
                             "url": "",
-                            "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam ",
+                            "description": "En esta sección vamos a descargar todos los recursos para poder desarrollar el curso.",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         }
                 ]
             },
             {
                 "id": "2",
-                "title": "Introducción a HTML5",
+                "title": "HTML",
                 "temary" :[
                     
                         {
                             "title": "¿Qué es HTML?",
                             "url": "",
-                            "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam voluptatem laudantium praesentium illo. Harum doloremque libero, suscipit placeat aut eaque animi illum quaerat quia, consectetur pariatur.",
+                            "description": "HTML 'Hyper Text Markup Language' es un lenguaje de Marcado de Hipertexto que define la estructura de tu contenido y se basa en etiquetas o elementos o tagname.",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
-                            "title": "Sintaxis del lenguage HTML",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "title": "Sintaxis y Hola Mundo",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
-                        },
-                        {
-                            "title": "Conociendo HEAD y BODY",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Titulos y párrafos",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
-                            "title": "Etiquetas de agrupación de contenido y texto",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "title": "Enlaces o anclas",
+                            "url": "",
+                            "description": "La etiqueta <a> nos permite crear un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
-                        },
-                        {
-                            "title": "Enlaces",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Listas",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Imágenes y Videos",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Tablas",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "La tablas nos permiten mostrar información de un forma organizada y se conforman de filas y columnas.",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Formularios",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "El elemento <form> se utiliza para crear un formulario HTML.",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
+                        },
+                        {
+                            "title": "Etiquetas Semanticas",
+                            "url": "",
+                            "description": "Actualmente HTML tiene etiquetas que ayudan a organizar nuestro código, además genera un pequeño beneficio en el SEO.",
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         }
                 ]
             },
             {
                 "id": "3",
-                "title": "Introducción a CSS3",
+                "title": "CSS",
                 "temary" :[
                         {
                             "title": "¿Qué es CSS?",
-                            "url": "nCB1gEkRZ1g",
-                            "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam voluptatem laudantium praesentium illo. Harum doloremque libero, suscipit placeat aut eaque animi illum quaerat quia, consectetur pariatur.",
+                            "url": "eBAWjhfqQR0",
+                            "description": "CSS significa (Hojas de Estilo en Cascada) y es el responsable de todo la UI y de cómo se muestran los elementos HTML en la pantalla.",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
-                            "title": "Conectando HTML y CSS",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "title": "Sintaxis",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
-                        },
-                        {
-                            "title": "Sintaxis de CSS",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
-                            "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Selectores",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Modelo de cajas",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
-                            "title": "Pseudoclases",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "title": "Pseudoclases y PseudoElementos",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
-                            "title": "Textos",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "title": "Unidades de medida",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Flexbox",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Grid",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         }
                 ]
             },
             {
                 "id": "4",
-                "title": "Introducción a JavaScript",
+                "title": "JavaScript",
                 "temary" :[
                         {
                             "title": "¿Qué es JavaScript?",
-                            "url": "nCB1gEkRZ1g",
-                            "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam voluptatem laudantium praesentium illo. Harum doloremque libero, suscipit placeat aut eaque animi illum quaerat quia, consectetur pariatur.",
+                            "url": "",
+                            "description": "JavaScript es el lenguaje de programación más popular del mundo orientado a la Web y es fácil de aprender. \n\nEn esta pequeña seccion te estare enseñando las bases necesarias para que puedas empezar a dominar este hermoso lenguaje.",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Hola Mundo desde JavaScript",
-                            "url": "knVwokXITGI",
-                            "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam ",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Comentarios",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Variables y constantes",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Tipos de datos",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Operadores",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Ciclos y Condicionales",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Funciones",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Arreglos y Objetos",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Ejercicio práctico",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         }
                 ]
             },
             {
                 "id": "5",
-                "title": "Proyecto final (Mi Portafolio)",
+                "title": "Proyecto Final",
                 "temary" :[
                         {
-                            "title": "Estructura del proyecto",
-                            "url": "nCB1gEkRZ1g",
-                            "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam voluptatem laudantium praesentium illo. Harum doloremque libero, suscipit placeat aut eaque animi illum quaerat quia, consectetur pariatur.",
+                            "title": "Introducción",
+                            "url": "",
+                            "description": "En esta sección vamos a crear un portafolio web. \n Aprenderas a estructurar un proyecto, darle estilos y vida usando HTML, CSS y JavaScript.",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
-                            "title": "Menu del portafolio",
-                            "url": "knVwokXITGI",
-                            "description": " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo aspernatur perferendis quibusdam! Veniam ",
+                            "title": "Estructura del proyecto",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
+                        },
+                        {
+                            "title": "Menú",
+                            "url": "",
+                            "description": "",
+                            "datePublication": "30 Nov. 2021",
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Slider",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
-                            "title": "Proyectos recientes",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "title": "Sección proyectos",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
-                            "title": "Habilidades",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "title": "Skills",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Contáctame",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Footer",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         },
                         {
                             "title": "Publicar proyecto en Github Page",
-                            "url": "M26iIqmqWkI",
-                            "description": " Lorem ipsum dolor sit amet consectetur.",
+                            "url": "",
+                            "description": "",
                             "datePublication": "30 Nov. 2021",
-                            "urlProyect": "https://github.com"
+                            "urlProyect": "https://github.com/almiror/curso-practico-de-html-css-javascript-2022"
                         }
                 ]
             }

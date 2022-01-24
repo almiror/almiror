@@ -22,7 +22,7 @@ getContenItemPlaylist.addEventListener("click", (e) => {
     <svg class="s-img-15 s-fill-text-alt s-mr-2">
         <use href="../src/assets/svg/icons.svg#github-logo" /> 
     </svg>
-    Descargar Proyecto
+    Descarga el codigo fuente 
     </div>
     <div class="smaller s-pt-2">
         <a href="${e.target.getAttribute('downloadProyect')}" class="color-link" target="_blank">
@@ -41,6 +41,7 @@ getContenItemPlaylist.addEventListener("click", (e) => {
       e.target.innerText;
       document.title = e.target.innerText
     document.querySelector('.date-publication-video').innerText = e.target.getAttribute("date-publication")
+
     for (let item = 0; item < temarySubItemActive.length; item++) {
       temarySubItemActive[item].classList.remove('active')
       e.target.classList.add('active')

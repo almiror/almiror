@@ -671,3 +671,12 @@
         height: auto;
      }
 }
+
+@media screen and (max-width:1024px){
+    .header-main-video-player{
+        padding-top: 0;
+    }
+    body.header-main-video-player header {
+        display: none;
+    }
+}
