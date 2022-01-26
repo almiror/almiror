@@ -579,7 +579,88 @@
 .video-item-icon-translate-15{
     transform: translateY(.15rem);
 }
+.loading-pages{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--body-dark);
+    z-index: calc(var(--z-modal-alt) + 100);
+}
+.svg-container-logo-loading{
+    width: 3rem;
+    height: auto;
+}
+.phat-logo-loadgin-1,
+.phat-logo-loadgin-2,
+.fill-poligon-loagind-logo,
+.fill-poligon-loagind-logo2{
+    fill: transparent;
+    stroke: rgba(255, 255, 255, .5);
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dashoffset: 760;
+    stroke-dasharray: 760;
+}
+.phat-logo-loadgin-1{            
+    animation: loading-logo-animate 5s forwards, 
+                loading-logo-animate-fill-primary 1s forwards 5s, 
+                loading-logo-animate-stroke-0 1s forwards 4.5s;
+}
+.phat-logo-loadgin-2{            
+    animation: loading-logo-animate 5s forwards, 
+                loading-logo-animate-fill-secondary 1s forwards 5s, 
+                loading-logo-animate-stroke-0 1s forwards 4.5s;
+}
+.fill-poligon-loagind-logo{
+    animation: loading-logo-animate 5s forwards 3.5s, 
+                loading-logo-animate-poligon1 1s forwards 4.5s, 
+                loading-logo-animate-stroke-0 1s forwards 4.5s;
+}
+.fill-poligon-loagind-logo2{
+    animation: loading-logo-animate 5s forwards 3.5s, 
+                loading-logo-animate-poligon2 1s forwards 4.5s, 
+                loading-logo-animate-stroke-0 1s  4.5s;
+}
 
+.phat-logo-loading-fill {
+    fill: #294B6B;
+}
+@keyframes loading-logo-animate {
+    to {                
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes loading-logo-animate-fill-primary {
+    to {                
+        fill: #0779E4;
+    }
+}
+@keyframes loading-logo-animate-fill-secondary {
+    to {                
+        fill: #294B6B;
+    }
+}
+@keyframes loading-logo-animate-poligon1 {
+    to {                
+        fill: #0C5DA8;
+    }
+}
+@keyframes loading-logo-animate-poligon2 {
+    to {                
+        fill: #1F3952;
+    }
+}
+@keyframes loading-logo-animate-stroke-0 {
+    to {                
+        stroke-width: 0;
+    }
+}
+.max-width-parrafo-loading{
+    max-width: 360px;
+}
 
 
 @media screen and (min-width:1024px) {

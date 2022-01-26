@@ -84,17 +84,17 @@ const abstractionData= (data) => {
     })
 }
 
-window.onload = () =>{
-    const activeFirstItem = qSA('.temary-item')
-    for (let i = 0; i < activeFirstItem.length; i++) {
-        if(i === 0) {
-            activeFirstItem[i].classList.add('active')
-            if(activeFirstItem[i].classList.contains('active')) activeFirstItem[i].children[0].children[0].children[0].children[0].setAttribute('href','../src/assets/svg/icons.svg#eye-open')          
-        }
+// window.onload = () =>{
+//     const activeFirstItem = qSA('.temary-item')
+//     for (let i = 0; i < activeFirstItem.length; i++) {
+//         if(i === 0) {
+//             activeFirstItem[i].classList.add('active')
+//             if(activeFirstItem[i].classList.contains('active')) activeFirstItem[i].children[0].children[0].children[0].children[0].setAttribute('href','../src/assets/svg/icons.svg#eye-open')          
+//         }
 
         
-    }
-}
+//     }
+// }
 const dropDownTitleVideo = iD('dropDownDescription')
 let lineClickAcitveToggle = dropDownTitleVideo.parentNode
 const dropDownDescriptionVideo = qS('.container-controls-videodescription')
