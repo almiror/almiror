@@ -48,15 +48,15 @@ if (URLPATH === "/almiror/cursos.html") {
   fetch(URL)
     .then((response) => response.json())
     .then((data) => componentCurso(data));
-} else if (URLPATH === "/index.html" || URLPATH === "/") {
+} else if (URLPATH === "/almiror/index.html" || URLPATH === "/") {
   fetch(URL)
     .then((response) => response.json())
     .then((data) => componentContenido(data));
-} else if (URLPATH === "/taller.html") {
+} else if (URLPATH === "/almiror/taller.html") {
   fetch(URL)
     .then((response) => response.json())
     .then((data) => componentTaller(data));
-} else if (URLPATH === "/tutorial.html") {
+} else if (URLPATH === "/almiror/tutorial.html") {
   fetch(URL)
     .then((response) => response.json())
     .then((data) => componentTutorial(data));
