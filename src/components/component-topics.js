@@ -50,7 +50,7 @@ const containerPopularTopics = item => {
     itemToppicPopularChildrens.forEach(item => {
         countItemTopicCourse ++
         if (itemToppicPopularChildrens.length - 1 >= countItemTopicCourse ) item.classList.remove('item-popular-cants')
-    })
+    }) 
 
     const observerTemaryPopular = new IntersectionObserver( (entradas, observador) => {
         entradas.forEach(entrada => {
