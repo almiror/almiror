@@ -44,7 +44,7 @@ const componentTutorial = (data) => {
 };
 
 const URLPATH = window.location.pathname;
-if (URLPATH === "/cursos.html") {
+if (URLPATH === "/almiror/cursos.html") {
   fetch(URL)
     .then((response) => response.json())
     .then((data) => componentCurso(data));

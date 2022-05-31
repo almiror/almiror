@@ -9,15 +9,15 @@ const componentPopularTopics = (data) => {
 };
 
 const URLPATH = window.location.pathname;
-if (URLPATH === "/cursos.html") {
+if (URLPATH === "/almiror/cursos.html") {
   fetch(URL)
     .then((response) => response.json())
     .then((data) => componentPopularTopics(data));
-} else if (URLPATH === "/taller.html") {
+} else if (URLPATH === "/almiror/taller.html") {
     fetch(URL)
     .then((response) => response.json())
     .then((data) => componentPopularTopics(data));
-} else if (URLPATH === "/tutorial.html") {
+} else if (URLPATH === "/almiror/tutorial.html") {
     fetch(URL)
     .then((response) => response.json())
     .then((data) => componentPopularTopics(data));
