@@ -2,7 +2,7 @@ import { iD, qS, qSA } from "../../docs/configurations/minimali.js";
 
 const asidePublicPostCourse = qS('.aside-stiky-img')
 const asidePublicTextCourse = qS('.course-aside-stiky')
-const URLPOSTCourses = "./src/api/cursos.json";
+const URLPOSTCourses = "./src/api/cursos.json"; 
 fetch(URLPOSTCourses)
 .then(response => response.json())
 .then(data => {

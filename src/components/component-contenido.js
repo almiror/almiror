@@ -31,7 +31,7 @@ const componentTaller = (data) => {
   for (const item of data) {
     if (item.type === "Taller") {
       typeTaller(item);
-    }
+    } 
   }
 };
 const componentTutorial = (data) => {
