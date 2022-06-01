@@ -48,7 +48,7 @@ if (URLPATH === "/almiror/cursos.html") {
   fetch(URL)
     .then((response) => response.json())
     .then((data) => componentCurso(data));
-} else if (URLPATH === "/almiror/index.html" || URLPATH === "/") {
+} else if (URLPATH === "/almiror/index.html" || URLPATH === "almiror") {
   fetch(URL)
     .then((response) => response.json())
     .then((data) => componentContenido(data));
