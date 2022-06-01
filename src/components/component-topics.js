@@ -55,6 +55,7 @@ const containerPopularTopics = item => {
     const observerTemaryPopular = new IntersectionObserver( (entradas, observador) => {
         entradas.forEach(entrada => {
             if(entrada.isIntersecting) {
+                console.log(appPouplarTopics.parentNode.children[1]);
                 appPouplarTopics.parentNode.children[1].style.visibility = "hidden"
             } else  {
                 appPouplarTopics.parentNode.children[1].style.visibility = "visible"
