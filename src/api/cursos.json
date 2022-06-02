@@ -26,8 +26,8 @@
         "title": "Curso Práctico de Html, Css y JavaScript Edición 2022",
         "description": "Aprende a estructurar sitios web con HTML para luego darle un buen diseño con CSS y vida con JavaScript",
         "poster": "./src/assets/img/public/poster-curso/css-grid-layout.png",
-        "views": "+100",
-        "date": "Estreno 15 Ene. 2022",
+        "views": "0",
+        "date": "Estreno 20 Jul. 2022",
         "teachers": [
             {
                 "poster": "./src/assets/img/public/teacher/julio.jpg",
@@ -36,7 +36,7 @@
         ],
         "type":"Curso",
         "url": "cursos/curso-practico-de-html-css-javascript-2022.html",
-        "stateurl": "true"
+        "stateurl": "false"
     },
     {
         "id": "2",
@@ -45,7 +45,7 @@
         "description": "Con este curso Aprendes la semantica de HTML5 y a estructurar un sitio web de manera correcta.",
         "poster": "./src/assets/img/public/poster-curso/css-grid-layout.png",
         "views": "0",
-        "date": "Estreno 25 Ene. 2022",
+        "date": "Estreno 01 Ago. 2022",
         "teachers": [
             {
                 "poster": "./src/assets/img/public/teacher/julio.jpg",
@@ -63,7 +63,7 @@
         "description": "En este taller aprenderas a crear tu propio reproductor de música usando  JavaScript moderno.",
         "poster": "./src/assets/img/public/poster-curso/css-grid-layout.png",
         "views": "0",
-        "date": "Estreno 01 Feb. 2022",
+        "date": "Estreno 01 Jul. 2022",
         "teachers": [
             {
                 "poster": "./src/assets/img/public/teacher/julio.jpg",
@@ -81,7 +81,7 @@
         "description": "En este tutorial crearemos un menu responsive usando CSS y HTML para que puedas aplicarlo en cualquier proyecto",
         "poster": "./src/assets/img/public/poster-curso/css-grid-layout.png",
         "views": "0",
-        "date": "Estreno 15 Nov. 2021",
+        "date": "Grabando",
         "teachers": [
             {
                 "poster": "./src/assets/img/public/teacher/julio.jpg",

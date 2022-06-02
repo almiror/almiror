@@ -1,14 +1,24 @@
-import { iD,qS, qSA} from "../../docs/configurations/minimali.js";
+import { iD, qS, qSA } from "../../docs/configurations/minimali.js";
 
-let containerLoading = document.createElement('DIV')
-containerLoading.classList.add('loading-pages','flex','s-cross-center','s-main-center')
+let containerLoading = document.createElement("DIV");
+containerLoading.classList.add(
+  "loading-pages",
+  "flex",
+  "s-cross-center",
+  "s-main-center"
+);
+containerLoading.id = "loading-pages";
 
-let subContainerLoading = document.createElement('DIV')
-subContainerLoading.classList.add('flex','s-cross-center','s-main-center','s-direction-column')
+let subContainerLoading = document.createElement("DIV");
+subContainerLoading.classList.add(
+  "flex",
+  "s-cross-center",
+  "s-main-center",
+  "s-direction-column"
+);
 
-let subSubContainerLoading = document.createElement('DIV')
-subSubContainerLoading.classList.add('s-mt-4')
-
+let subSubContainerLoading = document.createElement("DIV");
+subSubContainerLoading.classList.add("s-mt-4");
 
 let svgLogoAnimationInset = ` 
         <?xml version="1.0" encoding="UTF-8"?>
@@ -43,34 +53,85 @@ let svgLogoAnimationInset = `
         </g>
         </g>
         </svg>
-`
+`;
+
+//API DE FRASES
+const apiFrases = [
+  {
+    title:
+      "La función de un buen software es hacer que lo complejo aparente ser simple",
+    autor: "-- Grady Booch",
+  },
+  {
+    title: "Primero resuelve el problema. Entonces, escribe el código",
+    autor: "-- John Johnson",
+  },
+  {
+    title: "Iterar es humano, 'recursivar' es divino",
+    autor: "-- L. Peter Deutsch",
+  },
+  {
+    title:
+      "Lo mejor de los booleanos es que si te equivocas estás a un sólo bit de la solución correcta",
+    autor: "-- Anónimo",
+  },
+  {
+    title: "Java es, en muchos sentidos, C++-",
+    autor: "-- Michael Feldman",
+  },
+  {
+    title: "El buen código es su mejor documentación",
+    autor: "-- Steve McConnell",
+  },
+  {
+    title: "La creatividad es la inteligencia divirtiéndose",
+    autor: "Albert Einstein",
+  },
+];
+
+let frases = "";
+let autores = "";
+let numberRandom = Math.floor(Math.random() * (apiFrases.length - 0)) + 0;
+apiFrases.map((item, index) => {
+  if (index == numberRandom) {
+    frases = apiFrases[index].title;
+    autores = apiFrases[index].autor;
+  }
+});
 let frasesCelebresAnimationLoading = ` 
         <p class="s-mxy-0 s-pr-2 s-pl-2 normal color-text-alt max-width-parrafo-loading s-text-center">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        ${frases}
+        <span class="color-yellow-300 s-display-block smaller s-pt-3">${autores}</span>
         </p>
-`
-containerLoading.appendChild(subContainerLoading)
-subContainerLoading.innerHTML = svgLogoAnimationInset
+`;
+containerLoading.appendChild(subContainerLoading);
+subContainerLoading.innerHTML = svgLogoAnimationInset;
 
-document.body.appendChild(containerLoading)
+document.body.appendChild(containerLoading);
 const timeLoadingFrases = setTimeout(() => {
-    subContainerLoading.appendChild(subSubContainerLoading)
-    subSubContainerLoading.innerHTML = frasesCelebresAnimationLoading
-    clearTimeout(timeLoadingFrases)    
+  subContainerLoading.appendChild(subSubContainerLoading);
+  subSubContainerLoading.innerHTML = frasesCelebresAnimationLoading;
+  clearTimeout(timeLoadingFrases);
 }, 5500);
 
 
 window.onload = () => {
-    if (document.readyState === 'complete') {
-        document.body.removeChild(qS('.loading-pages'))
+  if (document.readyState == "complete") {
+    document.body.removeChild(qS(".loading-pages"));
+  }
+  const activeFirstItem = qSA(".temary-item");
+  if (activeFirstItem) {
+    for (let i = 0; i < activeFirstItem.length; i++) {
+      if (i === 0) {
+        activeFirstItem[i].classList.add("active");
+        if (activeFirstItem[i].classList.contains("active"))
+          activeFirstItem[
+            i
+          ].children[0].children[0].children[0].children[0].setAttribute(
+            "href",
+            "../src/assets/svg/icons.svg#eye-open"
+          );
+      }
     }
-    const activeFirstItem = qSA('.temary-item')
-    if (activeFirstItem) {
-        for (let i = 0; i < activeFirstItem.length; i++) {
-            if(i === 0) {
-                activeFirstItem[i].classList.add('active')
-                if(activeFirstItem[i].classList.contains('active')) activeFirstItem[i].children[0].children[0].children[0].children[0].setAttribute('href','../src/assets/svg/icons.svg#eye-open')          
-            }        
-        }
-    }
-}
+  }
+};
