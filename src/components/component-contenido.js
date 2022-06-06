@@ -70,7 +70,7 @@ const typeTutorial = (item) => {
             <img src="${item.poster}" alt="${item.title}">
         </div>
         <div class="s-pl-3 s-pr-3">
-            <h2 class="t3 s-pt-2 s-mxy-0 color-light lg-row-text-1">
+            <h2 class="t3 s-pt-2 s-mxy-0 color-light md-row-text-1 lg-row-text-1">
             ${item.title}
             </h2>
             <div class="smaller s-font-bold flex s-cross-center color-danger s-opacity-05">
@@ -124,7 +124,7 @@ const typeTaller = (item) => {
                     <img src="${item.poster}" alt="${item.title}">
                 </div>
                 <div class="s-pl-3 s-pr-3">
-                    <h2 class="t3 s-pt-2 s-mxy-0 color-light lg-row-text-1">
+                    <h2 class="t3 s-pt-2 s-mxy-0 color-light md-row-text-1 lg-row-text-1">
                     ${item.title}
                     </h2>
                     <div class="smaller s-font-bold flex s-cross-center color-success s-opacity-05">
@@ -178,7 +178,7 @@ const typeCurso = (item) => {
                     <img src="${item.poster}" alt="${item.title}">
                 </div>
                 <div class="s-pl-3 s-pr-3">
-                    <h2 class="t3 s-pt-2 s-mxy-0 color-light lg-row-text-1">
+                    <h2 class="t3 s-pt-2 s-mxy-0 color-light md-row-text-1 lg-row-text-1">
                     ${item.title}
                     </h2>
                     <div class="smaller s-font-bold flex s-cross-center color-secondary s-opacity-05">
