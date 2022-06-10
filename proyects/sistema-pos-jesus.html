@@ -7,11 +7,9 @@
     <title>Sistema De Ventas POS | Almiror</title>
     <meta name="author" content="Julio Quiñones Aranda" />
     <meta name="geo.region" content="PE">
-    <meta name="keywords"
-        content="Sistemas pos, venta de sistema, softwares de ventas, codigos fuentes" />
+    <meta name="keywords" content="Sistemas pos, venta de sistema, softwares de ventas, codigos fuentes" />
     <meta name="copyright" content="Julio Quiñones Aranda">
-    <meta name="description"
-        content="Un sistema desarrollado para facilitar tus ventas y tu contabilidad" />
+    <meta name="description" content="Un sistema desarrollado para facilitar tus ventas y tu contabilidad" />
     <link rel="shortcut icon" type="image/png" href="../src/assets/img/favicon/favicon.png" />
     <link rel="shortcut icon" type="image/x-icon" href="../src/assets/img/favicon/favicon.svg" />
     <meta name="theme-color" content="#007BDF">
@@ -25,16 +23,17 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Almiror Cursos" />
     <meta property="og:title" content="Sistema De Ventas POS | Almiror" />
-    <meta property="og:image:url" content="https://almiror.github.io/almiror/src/assets/img/public/posters/poster-sistema-pos.jpg" />
+    <meta property="og:image:url"
+        content="https://almiror.github.io/almiror/src/assets/img/public/posters/poster-sistema-pos.jpg" />
     <meta property="og:image:width" content="1280">
     <meta property="og:image:height" content="720">
     <meta property="og:url" content="https://www.almiror.com/cursos/curso-practico-de-html-css-javascript-2021" />
-    <meta property="og:description"
-        content="Un sistema desarrollado para facilitar tus ventas y tu contabilidad" />
+    <meta property="og:description" content="Un sistema desarrollado para facilitar tus ventas y tu contabilidad" />
     <meta property="twitter:site" content="Almiror Cursos" />
     <meta property="twitter:tittle" content="Sistema De Ventas POS | Almiror" />
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:image" content="https://almiror.github.io/almiror/src/assets/img/public/posters/poster-sistema-pos.jpg" />
+    <meta property="twitter:image"
+        content="https://almiror.github.io/almiror/src/assets/img/public/posters/poster-sistema-pos.jpg" />
     <meta property="twitter:description"
         content="Un sistema desarrollado para facilitar tus ventas y tu contabilidad" />
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../src/assets/img/icons-touch/icon-touch-144.png" />
@@ -189,15 +188,44 @@
                 <div id="bodyCode">
 
                 </div>
-                <div id="codesbody" class="full-none">
-                    <div>
+                <div id="codesbody" class="full-none s-mt-5">
+                    <div class="s-mt-5">
                         <h3 class="color-warning t3">
                             Códigos de ejecución de MYSQL
                         </h3>
-                        <pre class="s-radius-xy-3">
+                        <p class="color-text">
+                            Antes de ejecutar la actualización del <span class="color-success">SISTEMA POS CSM</span>
+                            ejecuta todas las consultas paso a paso de lo contrario el sistema no trabajara de una forma
+                            adecuada.
+                        </p>
+                    <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
-/*CODE EXAMPLE*/
-SELECT * FROM productos;
+/*
+1° PRIMERA CONSULTA
+*/
+ALTER TABLE venta_computo ADD totaproductos DECIMAL(18,2) NOT NULL, ADD subtotalproductos DECIMAL(18,2)  NOT NULL,ADD igvproductos DECIMAL(18,2)  NOT NULL
+                    </code>
+                    </pre>
+                    <pre class="s-radius-xy-3">
+                    <code class="language-sql s-radius-xy-2 s-select-default">
+/*
+2° CREAMOS LA TABLA DETALLES PARA EL AREA DE SERVICIO
+*/
+CREATE TABLE detalle_servicios(
+    id INT  NOT NULL PRIMARY KEY  AUTO_INCREMENT,
+    idservicio INT  NOT NULL,
+    idproducto INT  NOT NULL,
+    libre_impuesto VARCHAR(4) NOT NULL,
+    precio_venta DECIMAL(18,2) NOT NULL,
+	cantidad DECIMAL(18,2) NOT NULL,
+    descuento_aplicado DECIMAL(18,2) NOT NULL,
+    subtotal DECIMAL(18,2) NOT NULL,
+    igv DECIMAL(18,2) NOT NULL,
+	total DECIMAL(18,2) NOT NULL,
+	unidad_medida VARCHAR(50) NOT NULL,
+    FOREIGN KEY (idservicio) references venta_computo(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (idproducto) references productos(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
                     </code>
                     </pre>
                     </div>
@@ -211,7 +239,8 @@ SELECT * FROM productos;
                 <div>
                     <img src="../src/assets/img/logo/logo.svg" alt="Logo Almiror" class="footer-logo">
                     <p class="small color-text">
-                        Hacemos que aprender programación sea más facil y divertido, con nuestra metodoligía aprendes rápido, seguro y sin complicaciones.
+                        Hacemos que aprender programación sea más facil y divertido, con nuestra metodoligía aprendes
+                        rápido, seguro y sin complicaciones.
                     </p>
                     <div class="s-pt-2 s-pb-2 flex s-cross-center small color-light">
                         <svg class="s-img-20 s-mr-2">
@@ -230,13 +259,15 @@ SELECT * FROM productos;
                             </svg>
                         </a>
                         <a href="https://web.facebook.com/almiroroficial"
-                            class="color-light s-img-35 s-hidden flex s-cross-center icon-facebook s-main-center s-radius-xy-50 s-ml-3" target="_blank">
+                            class="color-light s-img-35 s-hidden flex s-cross-center icon-facebook s-main-center s-radius-xy-50 s-ml-3"
+                            target="_blank">
                             <svg class="s-img-15">
                                 <use href="../src/assets/svg/icons.svg#facebook" />
                             </svg>
                         </a>
                         <a href="https://www.youtube.com/channel/UCIFdfvkhUjenrH14ybmC0Ig"
-                            class="color-light s-img-35 s-hidden flex s-cross-center icon-youtube s-main-center s-radius-xy-50 s-ml-3" target="_blank">
+                            class="color-light s-img-35 s-hidden flex s-cross-center icon-youtube s-main-center s-radius-xy-50 s-ml-3"
+                            target="_blank">
                             <svg class="s-img-15">
                                 <use href="../src/assets/svg/icons.svg#youtube" />
                             </svg>
@@ -254,7 +285,8 @@ SELECT * FROM productos;
                             </a>
                         </li>
                         <li class="s-pb-2 footer-item">
-                            <a href="https://www.youtube.com/channel/UCIFdfvkhUjenrH14ybmC0Ig" class="color-text" target="_blank">
+                            <a href="https://www.youtube.com/channel/UCIFdfvkhUjenrH14ybmC0Ig" class="color-text"
+                                target="_blank">
                                 Yotube
                             </a>
                         </li>
