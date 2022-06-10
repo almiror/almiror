@@ -18,7 +18,7 @@ searchInput.addEventListener('search', () =>{
 let URLSEACHAPI = window.location;
 const  getURLPath = () => URLSEACHAPI.pathname.substring(0, URLSEACHAPI.pathname.lastIndexOf('/') + 1);
 
-if(getURLPath() == "/cursos/" || getURLPath() == "/taller/" || getURLPath() == "/tutorial/") {
+if(getURLPath() == "/cursos/" || getURLPath() == "/taller/" || getURLPath() == "/tutorial/"  || getURLPath() == "/proyects/") {
     URLSEACHAPI = "../src/api/cursos.json"
 } else {
     URLSEACHAPI = "./src/api/cursos.json"

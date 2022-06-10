@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <title>Curso Práctico de Html, Css y JavaScript Edición 2022</title>
+    <meta name="author" content="Julio Quiñones Aranda" />
+    <meta name="geo.region" content="PE">
+    <meta name="keywords"
+        content="Cursos de Html, Cursos de Css, Cursos de JavaScript, Cursos Práctico de Html css y JavaScript" />
+    <meta name="copyright" content="Julio Quiñones Aranda">
+    <meta name="description"
+        content="Aprende a desarrollar tu portafolio con este curso práctico de Html, Css y JavaScript" />
+    <link rel="shortcut icon" type="image/png" href="../src/assets/img/favicon/favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="../src/assets/img/favicon/favicon.svg" />
+    <meta name="theme-color" content="#007BDF">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Almiror Cursos">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="../assets/img/favicon/favicon.png">
+    <link rel="apple-touch-startup-image" href="../assets/img/favicon/favicon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Almiror Cursos" />
+    <meta property="og:title" content="Cursos de Programación, Diseño y Bases de Datos | Almiror" />
+    <meta property="og:image:url" content="https://www.almiror.com/" />
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <meta property="og:url" content="https://www.almiror.com/cursos/curso-practico-de-html-css-javascript-2021" />
+    <meta property="og:description"
+        content="Aprende a desarrollar tu portafolio con este curso práctico de Html, Css y JavaScript" />
+    <meta property="twitter:site" content="Almiror Cursos" />
+    <meta property="twitter:tittle" content="Cursos de Programación, Diseño y Bases de Datos | Almiror" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="https://www.almiror.com/" />
+    <meta property="twitter:description"
+        content="Aprende a desarrollar tu portafolio con este curso práctico de Html, Css y JavaScript" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../src/assets/img/icons-touch/icon-touch-144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../src/assets/img/icons-touch/icon-touch-114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../src/assets/img/icons-touch/icon-touch-72.png" />
+    <link rel="apple-touch-icon-precomposed" href="../src/assets/img/icons-touch/icon-touch-57.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/variables.css">
+    <link rel="stylesheet" href="../src/css/start.css">
+    <link rel="stylesheet" href="../src/css/api-grid-flexbox.css">
+    <link rel="stylesheet" href="../src/css/main.css">
+    <script src="../src/js/loading.js" type="module"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script> -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+    <style>
+        .hljs {
+            background-color: var(--dark-alt);
+            color: var(--text-color-alt);
+        }
+    </style>
+</head>
+
+<body class="loggued loggued-top s-loggued-top body-dark">
+    <noscript>Your browser does not support JavaScript!</noscript>
+    <header class="main-header grid s-cross-center s-col-gap-4 z-fixed" id="main-header">
+        <div class="flex s-main-justify">
+            <a href="../" class="flex s-cross-center">
+                <img src="../src/assets/img/logo/logo.svg" alt="Logo Almiror" class="logo">
+            </a>
+            <button class="btn-menu desktop-none s-main-center s-cross-center" id="showMenu">
+                <svg class="btn-menu-icon s-fill-grey">
+                    <use href="../src/assets/svg/icons.svg#menu" />
+                </svg>
+            </button>
+        </div>
+        <div class="s-relative container-search">
+            <div class="grid s-grid-12 s-main-justify">
+                <div class="flex s-col-star-2 s-cols-8 s-cross-center s-relative">
+                    <input type="search" name="search-input" class="search-input s-outline-none desktop-none small-none"
+                        id="seacrh-input" placeholder="¿Qué buscaremos hoy?" autocomplete="off">
+                    <div class="content-search">
+                        <ul id="append-search-item">
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex s-cols-3 s-main-end header-actions z-modal">
+                    <button class="btn-menu small-none flex s-cross-center" id="btnHelpCuestion">
+                        <svg class="btn-menu-icon  s-fill-grey">
+                            <use href="../src/assets/svg/icons.svg#frequent-questions-alt" />
+                        </svg>
+                    </button>
+                    <div>
+                        <a href="https://www.youtube.com/channel/UCIFdfvkhUjenrH14ybmC0Ig"
+                            class="btn btn-transparent-light smaller" target="_blank">Suscríbete 🙏🏻</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <aside class="aside-menu z-modal-alt" id="aside-menu">
+        <div class="flex small-none s-width small-logo-aside">
+            <a href="../" class="flex s-cross-center logo-aside-menu active">
+                <img src="../src/assets/img/logo/logo.svg" alt="Logo Almiror" class="logo">
+            </a>
+            <button class="btn-aside flex s-cross-center s-main-center" id="showAside">
+                <svg class="btn-aside-icon s-fill-grey">
+                    <use href="../src/assets/svg/icons.svg#menu" />
+                </svg>
+            </button>
+        </div>
+        <nav class="s-height flex s-cross-center s-main-justify lg-display-block nav-aside s-relative">
+            <a href="../" class="nav-item smaller flex s-cross-center lg-cross-start">
+                <svg class="nav-icon s-fill-grey">
+                    <use href="../src/assets/svg/icons.svg#home" />
+                </svg>
+                <span class="s-display-block">
+                    Inicio
+                </span>
+            </a>
+            <a href="../cursos.html" class="nav-item smaller active flex s-cross-center lg-cross-start">
+                <svg class="nav-icon s-fill-grey">
+                    <use href="../src/assets/svg/icons.svg#course" />
+                </svg>
+                <span class="s-display-block">
+                    Cursos
+                </span>
+            </a>
+            <a href="../taller.html" class="nav-item smaller flex s-cross-center lg-cross-start">
+                <svg class="nav-icon s-fill-grey">
+                    <use href="../src/assets/svg/icons.svg#talleres" />
+                </svg>
+                <span class="s-display-block">
+                    Talleres
+                </span>
+            </a>
+            <a href="../tutorial.html" class="nav-item smaller flex s-cross-center lg-cross-start">
+                <svg class="nav-icon s-fill-grey">
+                    <use href="../src/assets/svg/icons.svg#tutorial" />
+                </svg>
+                <span class="s-display-block">
+                    Tutoriales
+                </span>
+            </a>
+            <a href="../mentoria.html" class="nav-item smaller flex s-cross-center lg-cross-start">
+                <svg class="nav-icon s-fill-grey">
+                    <use href="../src/assets/svg/icons.svg#comunity" />
+                </svg>
+                <span class="s-display-block">
+                    Mentoria
+                </span>
+            </a>
+            <span class="nav-item smaller flex s-cross-center lg-cross-start desktop-none" id="openSearch">
+                <svg class="nav-icon s-fill-grey">
+                    <use href="../src/assets/svg/icons.svg#search" />
+                </svg>
+                <span class="s-display-block">
+                    Buscar
+                </span>
+            </span>
+            <div class="conversion-banner small">
+                Trabajamos para acompañarte en el proceso de convertirte en un mejor profesional.
+            </div>
+
+        </nav>
+    </aside>
+    <main id="main" kadmsyssoft="#22POSJE@@">
+        <div class="lg-box-container">
+            <div class="separator-landing-page">
+                <div class="conten-login s-height flex s-main-center s-cross-center s-direction-column s-mt-5"
+                    id="view-progreses">
+                    <h2 class="t3 color-light">Iniciar Sesión</h2>
+                    <form id="formLogin" class="flex s-main-center s-cross-center s-direction-column">
+                        <input type="text"
+                            class="search-input bg-dark normal color-yellow-300 s-outline-none s-border-1 s-radius-xy-1 s-pl-2 s-display-inline-block s-mb-3"
+                            placeholder="Usuario" id="userName">
+                        <input type="password"
+                            class="search-input bg-dark normal color-yellow-300 s-outline-none s-border-1 s-radius-xy-1 s-pl-2 s-display-inline-block"
+                            placeholder="Contraseña" id="passwords">
+                        <button class="btn btn-portlio color-light s-mt-4 s-width s-main-center">
+                            Iniciar sesión
+                        </button>
+                    </form>
+                </div>
+                <div id="bodyCode">
+
+                </div>
+                <div id="codesbody" class="full-none">
+                    <div>
+                        <h3 class="color-warning t3">
+                            Códigos de ejecución de MYSQL
+                        </h3>
+                        <pre class="s-radius-xy-3">
+                    <code class="language-sql s-radius-xy-2 s-select-default">
+/*CODE EXAMPLE*/
+SELECT * FROM productos;
+                    </code>
+                    </pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer bg-dark-body full-none" id="footer">
+        <div class="lg-box-container s-pt-6 s-pb-6 md-pl-3 md-pr-5">
+            <div class="grid md-grid-2 lg-grid-4 s-gap-xy-2 md-gap-xy-5 s-pt-3 s-pr-3 s-pl-3 lg-pr-5 lg-pl-2">
+                <div>
+                    <img src="../src/assets/img/logo/logo.svg" alt="Logo Almiror" class="footer-logo">
+                    <p class="small color-text">
+                        Hacemos que aprender programación sea más facil y divertido, con nuestra metodoligía aprendes rápido, seguro y sin complicaciones.
+                    </p>
+                    <div class="s-pt-2 s-pb-2 flex s-cross-center small color-light">
+                        <svg class="s-img-20 s-mr-2">
+                            <use href="../src/assets/svg/icons.svg#map-peru" />
+                        </svg>
+                        100% Raza latina
+                    </div>
+                    <h3 class="color-light t4">
+                        Aprende en nuestras redes:
+                    </h3>
+                    <div class="flex s-cross-center">
+                        <a href="#"
+                            class="color-light s-img-35 s-hidden flex s-cross-center icon-twitter s-main-center s-radius-xy-50">
+                            <svg class="s-img-15">
+                                <use href="../src/assets/svg/icons.svg#twitter" />
+                            </svg>
+                        </a>
+                        <a href="https://web.facebook.com/almiroroficial"
+                            class="color-light s-img-35 s-hidden flex s-cross-center icon-facebook s-main-center s-radius-xy-50 s-ml-3" target="_blank">
+                            <svg class="s-img-15">
+                                <use href="../src/assets/svg/icons.svg#facebook" />
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCIFdfvkhUjenrH14ybmC0Ig"
+                            class="color-light s-img-35 s-hidden flex s-cross-center icon-youtube s-main-center s-radius-xy-50 s-ml-3" target="_blank">
+                            <svg class="s-img-15">
+                                <use href="../src/assets/svg/icons.svg#youtube" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="color-light t3 s-mt-0">
+                        Contenido
+                    </h3>
+                    <ul class="small">
+                        <li class="s-pb-2 footer-item">
+                            <a href="../mentoria.html" class="color-text ">
+                                Mentorías
+                            </a>
+                        </li>
+                        <li class="s-pb-2 footer-item">
+                            <a href="https://www.youtube.com/channel/UCIFdfvkhUjenrH14ybmC0Ig" class="color-text" target="_blank">
+                                Yotube
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="color-light t3 s-mt-0">
+                        Cursos
+                    </h3>
+                    <ul class="small">
+                        <li class="s-pb-2 footer-item color-text">
+                            <span>
+                                Curso de HTML Básico
+                            </span>
+                        </li>
+                        <li class="s-pb-2 footer-item color-text">
+                            <span>
+                                Curso de CSS Básico
+                            </span>
+                        </li>
+                        <li class="s-pb-2 footer-item color-text">
+                            <span>
+                                Curso JavaScript Básico
+                            </span>
+                        </li>
+                        <li class="s-pb-2 footer-item color-text">
+                            <span>
+                                Curso JavaScript Intermedio
+                            </span>
+                        </li>
+                        <li class="s-pb-2 footer-item color-text">
+                            <span>Curso Introducción a java</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="color-light t3 s-mt-0">
+                        Sobre Mí
+                    </h3>
+                    <ul class="small">
+                        <li class="s-pb-2 footer-item">
+                            <a href="../julioquinones.html" class="color-text ">
+                                ¿Quién soy?
+                            </a>
+                        </li>
+                        <li class="s-pb-2 footer-item">
+                            <span class="color-text">
+                                ¿Por qué?
+                            </span>
+                        </li>
+                    </ul>
+                    <h3 class="color-light t3">
+                        Legal
+                    </h3>
+                    <ul class="small">
+                        <li class="s-pb-2 footer-item">
+                            <a href="../politicas.html" class="color-text ">
+                                Política de privacidad
+                            </a>
+                        </li>
+                        <li class="s-pb-2 footer-item">
+                            <a href="../terminos.html" class="color-text">
+                                Términos y condiciones de servicio
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-and-footer">
+            <div
+                class="lg-box-container s-pt-3 s-pb-6 md-pl-3 md-pr-5 flex md-main-justify s-direction-column md-direction-row s-text-center md-text-left">
+                <p class="s-mxy-0 small color-text s-pt-4">
+                    © 2021 - 2022 Almiror Todos los derechos reservados.
+                </p>
+                <p class="s-mxy-0 small color-text s-pt-4">
+                    Hecho con 💙 en Perú para todo el mundo de habla hispana.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="../src/js/menu.main.js" type="module"></script>
+    <script src="../src/js/search.js" type="module"></script>
+    <script src="../src/js/code-customers.js" type="module"></script>
+</body>
+
+</html>

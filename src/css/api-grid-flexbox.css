@@ -13,6 +13,12 @@
 .s-display-block{
     display: block;
 }
+.s-select-default{
+    user-select: text;
+}
+.full-none{
+    display: none;
+}
 .s-display-inline-block{
     display: inline-block;
 }
@@ -3801,7 +3807,7 @@
 @media screen and (min-width:1440px) {    
     .lg-box-container,
     .lg-box-container-videos{
-        max-width: 1200px;
+        max-width: 1400px;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
