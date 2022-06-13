@@ -242,7 +242,7 @@ CREATE TABLE pagos_cuentas_por_cobrar(
     fecha_pago DATETIME  NOT NULL,
     monto DECIMAL(18,2) NOT NULL,
     FOREIGN KEY (idalmacen) references almacen(id) ON DELETE CASCADE ON UPDATE CASCADE
-);
+); 
                     </code>
                     </pre>
                     <pre class="s-radius-xy-3">
@@ -256,7 +256,7 @@ CREATE TABLE detallepagos_cuentas_por_cobrar(
     idpagocuota INT  NOT NULL,
     FOREIGN KEY (idpagos) references pagos_cuentas_por_cobrar(id) ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (idpagocuota) references cuota_deuda_ventas(id) ON DELETE CASCADE ON UPDATE CASCADE
-);
+); 
                     </code>
                     </pre>
                     </div>
