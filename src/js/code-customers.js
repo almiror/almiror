@@ -187,7 +187,7 @@ const appendBody  = ()=> {
                                     PENDIENTE
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-success">
-                                    PROCESO 88%
+                                FINALIZADO
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
