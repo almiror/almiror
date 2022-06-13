@@ -183,8 +183,8 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     CARGA DE PRODUCTOS EN EL AREA DE SERVICIO AL MOMENTO DE REALIZAR EL INGRESO DEL EQUIPO Y CON LA OPCIÓN DE AÑADIRLO POSTERIORMENTE
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-dansuccessger">
+                                FINALIZADO
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-success">
                                 FINALIZADO
@@ -194,8 +194,8 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     IMPRESIÓN Y REIMPRESIÓN DE COMPROBANTES EN FORMATO 80ML EN EL AREA DE SERVICIOS
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-success">
                                     FINALIZADO
@@ -205,8 +205,8 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     HISTORIAL DE SERVICIOS REALIZADOS E IMPRESIÓN DE COMPROBANTE AREA  SERVICIOS
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-success">
                                     FINALIZADO
@@ -216,8 +216,8 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     OPCIÓN A MODIFICAR EL ABONO INICIAL AREA SERVICIOS
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-success">
 									FINALIZADO
@@ -227,8 +227,8 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     GENERAR COMPROBANTE DE 80ML DE PAGO CUANDO UN CLIENTE PAGUE UNA DEUDA AREA CUENTAS POR COBRAR
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-success">
                                 FINALIZADO
@@ -238,8 +238,8 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     HISTORIAL DE PAGOS ON OPCIÓN A REIMPRESIÓN DE TICKET 80ML AREA CUENTAS POR COBRAR
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-success">
                                 FINALIZADO
@@ -406,8 +406,8 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-danger">
                                     PENDIENTE
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-warning">
+                                    PROCESO
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
@@ -417,8 +417,8 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-danger">
                                     PENDIENTE
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-warning">
+                                    PROCESO
                                 </td>
                             </tr>                           
                         </tbody>
