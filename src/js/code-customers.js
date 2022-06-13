@@ -183,7 +183,7 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     CARGA DE PRODUCTOS EN EL AREA DE SERVICIO AL MOMENTO DE REALIZAR EL INGRESO DEL EQUIPO Y CON LA OPCIÓN DE AÑADIRLO POSTERIORMENTE
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-dansuccessger">
+                                <td class="s-pxy-2 s-text-left color-success">
                                 FINALIZADO
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-success">
