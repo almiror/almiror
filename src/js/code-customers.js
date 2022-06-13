@@ -403,11 +403,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     IMPRESIÓN DE TICKETS EN CUENTAS POR COBRAR
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                    PROCESO 30%
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
