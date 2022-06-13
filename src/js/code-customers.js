@@ -373,19 +373,19 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-danger">
                                     PENDIENTE
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-warning">
+                                PROCESO 5%
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
                                 <td class="s-pxy-2 s-text-left">
-                                    IMPRESIÓN  REPORTE D CIERRE DE CAJA POR PERSONAL (EN LOS 4 FORMATOS)
+                                    IMPRESIÓN  REPORTE DE CIERRE DE CAJA POR PERSONAL (EN LOS 4 FORMATOS)
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-danger">
                                     PENDIENTE
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-warning">
+                                PROCESO 50%
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
@@ -395,8 +395,8 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-danger">
                                     PENDIENTE
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-warning">
+                                    PROCESO 10%
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
