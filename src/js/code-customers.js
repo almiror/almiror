@@ -370,11 +370,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     LAS VENTAS DEL AREA DE SERVICIO SEAN REFLEJADOS EN EL CIERRE DE CAJA
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                PROCESO 5%
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
