@@ -381,22 +381,22 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     IMPRESIÓN  REPORTE DE CIERRE DE CAJA POR PERSONAL (EN LOS 4 FORMATOS)
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                PROCESO 50%
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
                                 <td class="s-pxy-2 s-text-left">
                                     LISTADO DE CIERRE DE CAJA CON OPCIÓN A BUSQUEDA CON OPCIONES A REIMPRESIÓN
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                    PROCESO 10%
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
