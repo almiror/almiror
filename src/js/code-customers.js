@@ -420,7 +420,67 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-success">
                                     FINALIZADO
                                 </td>
-                            </tr>                           
+                            </tr>    
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left color-success" colspan="3">
+                                    NUEVOS REQUERIMIENTOS
+                                </td>
+                            </tr>                         
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                AGREGAR EL CAMPO IMAGEN EN LA SECCION (ALMACEN PRODUCTOS)
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                      
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                MOSTRAR LA IMAGEN EN LA SECCION VENTAS AL MOMENTO DE AGREGAR EL PRODUCTO
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                      
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                MOSTRAR LA IMAGEN EN LA SECCION VENTAS FACTURA OLD AL MOMENTO DE AGREGAR EL PRODUCTO
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                      
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                MOSTRAR LA IMAGEN EN LA SECCION SERVICIOS AL MOMENTO DE AGREGAR EL PRODUCTO
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                     
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                EL SERVICIO DEBE DE MARCAR LA HORA DE SALIDA DEL EQUIPO
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                     
                         </tbody>
                     </table>
                 </div>                
