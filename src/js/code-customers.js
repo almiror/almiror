@@ -423,7 +423,7 @@ const appendBody  = ()=> {
                             </tr>    
                             <tr class="smaller s-border-1">
                                 <td class="s-pxy-2 s-text-left color-success" colspan="3">
-                                    NUEVOS REQUERIMIENTOS
+                                    NUEVOS REQUERIMIENTOS ($40.00)
                                 </td>
                             </tr>                         
                             <tr class="smaller s-border-1">
@@ -450,7 +450,18 @@ const appendBody  = ()=> {
                             </tr>                      
                             <tr class="smaller s-border-1">
                                 <td class="s-pxy-2 s-text-left">
-                                MOSTRAR LA IMAGEN EN LA SECCION VENTAS FACTURA OLD AL MOMENTO DE AGREGAR EL PRODUCTO
+                                MOSTRAR LA IMAGEN EN LA SECCION VENTAS FACTURA OLD
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                      
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                MOSTRAR LA IMAGEN EN LA SECCION VENTAS MODIFICAR VENTA
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-danger">
                                 PENDIENTE
@@ -462,6 +473,17 @@ const appendBody  = ()=> {
                             <tr class="smaller s-border-1">
                                 <td class="s-pxy-2 s-text-left">
                                 MOSTRAR LA IMAGEN EN LA SECCION SERVICIOS AL MOMENTO DE AGREGAR EL PRODUCTO
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                     
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                MOSTRAR LA IMAGEN EN LA SECCION SERVICIOS AL AGREGAR MAS ACCESORIOS
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-danger">
                                 PENDIENTE
