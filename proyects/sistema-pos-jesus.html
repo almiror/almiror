@@ -292,10 +292,12 @@ CREATE TABLE pagos_servicios(
     id INT  NOT NULL PRIMARY KEY  AUTO_INCREMENT,
     idalmacen INT  NOT NULL,
     idusuario INT  NOT NULL,
+    idservicio INT  NOT NULL,
     fecha_pago DATETIME  NOT NULL,
     monto DECIMAL(18,2) NOT NULL,
     FOREIGN KEY (idalmacen) references almacen(id) ON DELETE CASCADE ON UPDATE CASCADE,
-    FOREIGN KEY (idusuario) references usuarios(id) ON DELETE CASCADE ON UPDATE CASCADE
+    FOREIGN KEY (idusuario) references usuarios(id) ON DELETE CASCADE ON UPDATE CASCADE,    
+    FOREIGN KEY (idservicio) references venta_computo(id) ON DELETE CASCADE ON UPDATE CASCADE
 ); 
                     </code>
                     </pre>
