@@ -422,7 +422,7 @@ const appendBody  = ()=> {
                                 </td>
                             </tr>    
                             <tr class="smaller s-border-1">
-                                <td class="s-pxy-2 s-text-left color-success" colspan="3">
+                                <td class="s-pxy-2 s-text-center t2 color-success" colspan="3">
                                     NUEVOS REQUERIMIENTOS ($40.00)
                                 </td>
                             </tr>                         
