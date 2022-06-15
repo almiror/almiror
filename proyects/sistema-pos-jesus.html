@@ -309,6 +309,14 @@ CREATE TABLE pagos_servicios(
 ALTER TABLE corte_caja ADD otros_servicios DECIMAL(18,2) NOT NULL;
                     </code>
                     </pre>
+                    <pre class="s-radius-xy-3">
+                    <code class="language-sql s-radius-xy-2 s-select-default">
+/*
+9° CREAMOS LA COLUMNA PARA VALIDAR CON LOS COMPROBANTES QUE SE VAN A TRABAJAR
+*/
+ALTER TABLE comprobantes ADD towork VARCHAR(6) NOT NULL;
+                    </code>
+                    </pre>
                     </div>
                 </div>
             </div>
