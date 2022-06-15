@@ -282,11 +282,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     OPTIMIZACION DE DESCUENTO GLOBAL Y CREAR LA OPCIÓN PARA PONER UN LIMITE DE DESCUENTO GLOBAL AREA VENTAS
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                    PROCESO 00%
+                                <td class="s-pxy-2 s-text-left color-succcess">
+                                FINALIZADO
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
