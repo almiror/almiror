@@ -285,7 +285,7 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-success">
                                 FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-succcess">
+                                <td class="s-pxy-2 s-text-left color-success">
                                 FINALIZADO
                                 </td>
                             </tr>                           
@@ -363,7 +363,7 @@ const appendBody  = ()=> {
                                     PENDIENTE
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-warning">
-                                    PROCESO 05%
+                                    PROCESO 20%
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
