@@ -339,6 +339,21 @@ CREATE TABLE descuento_global(
 );
                     </code>
                     </pre>
+                    <pre class="s-radius-xy-3">
+                    <code class="language-sql s-radius-xy-2 s-select-default">
+/*
+11° CREAMOS LA TABLA PARA REGISTRAR LOS APP DE DELIVERIS
+*/
+CREATE TABLE app_delivery(
+    id INT  NOT NULL PRIMARY KEY  AUTO_INCREMENT,
+    idalmacen INT  NOT NULL,
+    descripcion VARCHAR(60)  NOT NULL,
+    monto DECIMAL(6,2) NOT NULL,
+    estado TINYINT NOT NULL,
+    FOREIGN KEY (idalmacen) references almacen(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+                    </code>
+                    </pre>
                     </div>
                 </div>
             </div>
