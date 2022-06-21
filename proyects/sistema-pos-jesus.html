@@ -342,7 +342,7 @@ CREATE TABLE descuento_global(
                     <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
-11° CREAMOS LA TABLA PARA REGISTRAR LOS APP DE DELIVERIS
+11° CREAMOS LA TABLA PARA REGISTRAR LOS APP DE DELIVERYS
 */
 CREATE TABLE app_delivery(
     id INT  NOT NULL PRIMARY KEY  AUTO_INCREMENT,
@@ -351,6 +351,37 @@ CREATE TABLE app_delivery(
     monto DECIMAL(6,2) NOT NULL,
     estado TINYINT NOT NULL,
     FOREIGN KEY (idalmacen) references almacen(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+                    </code>
+                    </pre>
+                    <pre class="s-radius-xy-3">
+                    <code class="language-sql s-radius-xy-2 s-select-default">
+/*
+12 OFERTAS Y KITS TABLA PRINCIPAL
+*/
+CREATE TABLE ofertas(
+    id INT  NOT NULL PRIMARY KEY  AUTO_INCREMENT,
+    idalmacen INT  NOT NULL,    
+    codigo_barra VARCHAR(20)  NOT NULL,
+    descripcion VARCHAR(120)  NOT NULL,
+    precio DECIMAL(18,2) NOT NULL,    
+    fecha_termino DATE NOT NULL,
+    estado TINYINT NOT NULL,
+    FOREIGN KEY (idalmacen) references almacen(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+                    </code>
+                    </pre>
+                    <pre class="s-radius-xy-3">
+                    <code class="language-sql s-radius-xy-2 s-select-default">
+/*
+13° OFERTAS Y KITS TABLA DETALLES
+*/
+CREATE TABLE detalle_ofertas(
+    id INT  NOT NULL PRIMARY KEY  AUTO_INCREMENT,
+    idoferta INT  NOT NULL,
+    idproducto INT  NOT NULL,
+    FOREIGN KEY (idproducto) references productos(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (idoferta) references ofertas(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
                     </code>
                     </pre>
