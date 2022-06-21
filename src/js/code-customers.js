@@ -247,13 +247,13 @@ const appendBody  = ()=> {
                             </tr>                           
                             <tr class="smaller s-border-1">
                                 <td class="s-pxy-2 s-text-left">
-                                    CREAR COMBOS O OFERTAS DE PRODUCTOS Y GENERAR CODIGO DE BARRA CON OPCIONES A ACTIVAR E INACTIVAR EL COMBO AREA PRODUCTOS
+                                    CREAR OFERTAS DE PRODUCTOS Y GENERAR CODIGO DE BARRA CON OPCIONES A ACTIVAR E INACTIVAR EL COMBO AREA PRODUCTOS
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-danger">
                                     PENDIENTE
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-warning">
+                                PROCESO 20%
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
@@ -263,8 +263,8 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-danger">
                                     PENDIENTE
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-warning">
+                                    PROCESO 20%
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
