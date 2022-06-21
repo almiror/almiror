@@ -315,11 +315,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     DISEÑAR UN VENTANA DE PAGO  EN EL AREA DE VENTA DIRECTA DE PRODUCTOS (OJO. Esa ventana es del monto que paga el cliente y el vuelto que resivirá)
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                    PROCESO 70%
+                                <td class="s-pxy-2 s-text-left color-success">
+                                    FINALIZADO
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
