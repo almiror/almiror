@@ -380,6 +380,7 @@ CREATE TABLE detalle_ofertas(
     id INT  NOT NULL PRIMARY KEY  AUTO_INCREMENT,
     idoferta INT  NOT NULL,
     idproducto INT  NOT NULL,
+    cantidad DECIMAL(18,2)  NOT NULL, 
     FOREIGN KEY (idproducto) references productos(id) ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (idoferta) references ofertas(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
@@ -410,6 +411,7 @@ CREATE TABLE detalle_kit_productos(
     id INT  NOT NULL PRIMARY KEY  AUTO_INCREMENT,
     idkit INT  NOT NULL,
     idproducto INT  NOT NULL,
+    cantidad DECIMAL(18,2)  NOT NULL, 
     FOREIGN KEY (idproducto) references productos(id) ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (idkit) references kit_productos(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
