@@ -297,7 +297,7 @@ const appendBody  = ()=> {
                                 FINALIZADO
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-success">
-                                    FINALIZADO <span class="smaller">(OPTIMIZACION)</span>
+                                    FINALIZADO <span class="smaller color-danger">(en observación)</span>
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
