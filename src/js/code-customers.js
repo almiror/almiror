@@ -293,11 +293,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     CREAR LA OPCIÓN PARA VERIFICAR EL PRECIO DEL PRODUCTO AREA VENTAS, SEGÚN KIT, OFERTAS Y PRODUCTOS INDEPENDIENTE
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                    PROCESO 15%
+                                <td class="s-pxy-2 s-text-left color-success">
+                                    FINALIZADO <span class="smaller">(OPTIMIZACION)</span>
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
@@ -326,11 +326,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     ACTUALIZACIÓN AUTOMÁTICA DE PRECIO EN TODAS SUS UNIDADES DE MEDIDA CUANDO SE REALICE UNA COMPRA AREA COMPRAS
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                    FINALIZADO
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
