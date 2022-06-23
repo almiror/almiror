@@ -249,22 +249,22 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     CREAR OFERTAS DE PRODUCTOS Y GENERAR CODIGO DE BARRA CON OPCIONES A ACTIVAR E INACTIVAR EL COMBO AREA PRODUCTOS
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                PROCESO 20%
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
                                 <td class="s-pxy-2 s-text-left">
                                     OPCIÓN A CREAR KITS DE PRODUCTOS Y GENERAR SU CODIGO DE BARRA AREA PRODUCTOS
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                    PROCESO 20%
+                                <td class="s-pxy-2 s-text-left color-success">
+                                    FINALIZADO
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
@@ -297,7 +297,7 @@ const appendBody  = ()=> {
                                 FINALIZADO
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-success">
-                                    FINALIZADO <span class="smaller color-danger">(en observación)</span>
+                                    FINALIZADO
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">

@@ -367,6 +367,7 @@ CREATE TABLE ofertas(
     precio DECIMAL(18,2) NOT NULL,    
     fecha_termino DATE NOT NULL,
     estado TINYINT NOT NULL,
+    stock DECIMAL(18,2)  NOT NULL,
     FOREIGN KEY (idalmacen) references almacen(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
                     </code>
@@ -398,6 +399,7 @@ CREATE TABLE kit_productos(
     descripcion VARCHAR(120)  NOT NULL,
     precio DECIMAL(18,2) NOT NULL,   
     estado TINYINT NOT NULL,
+    stock DECIMAL(18,2)  NOT NULL,
     FOREIGN KEY (idalmacen) references almacen(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
                     </code>
