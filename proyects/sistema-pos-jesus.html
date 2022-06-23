@@ -354,7 +354,7 @@ CREATE TABLE app_delivery(
 );
                     </code>
                     </pre>
-                    <pre class="s-radius-xy-3">
+                    <!-- <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 12 OFERTAS Y KITS TABLA PRINCIPAL
@@ -371,23 +371,21 @@ CREATE TABLE ofertas(
     FOREIGN KEY (idalmacen) references almacen(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
                     </code>
-                    </pre>
+                    </pre> -->
                     <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
-13° OFERTAS Y KITS TABLA DETALLES
+13° OFERTAS 
 */
-CREATE TABLE detalle_ofertas(
+CREATE TABLE detalle_combos(
     id INT  NOT NULL PRIMARY KEY  AUTO_INCREMENT,
-    idoferta INT  NOT NULL,
     idproducto INT  NOT NULL,
     cantidad DECIMAL(18,2)  NOT NULL, 
-    FOREIGN KEY (idproducto) references productos(id) ON DELETE CASCADE ON UPDATE CASCADE,
-    FOREIGN KEY (idoferta) references ofertas(id) ON DELETE CASCADE ON UPDATE CASCADE
+    FOREIGN KEY (idproducto) references productos(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
                     </code>
                     </pre>
-                    <pre class="s-radius-xy-3">
+                    <!-- <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 14° KIT TABLA PRINCIPAL PARA ALMACENAR LOS KITS DE PRODUCTOS
@@ -403,19 +401,17 @@ CREATE TABLE kit_productos(
     FOREIGN KEY (idalmacen) references almacen(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
                     </code>
-                    </pre>
+                    </pre> -->
                     <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 15° KIT TABLA SECUNDARIA PARA ALMACENAR LOS KITS DE PRODUCTOS
 */
-CREATE TABLE detalle_kit_productos(
+CREATE TABLE detalle_kit(
     id INT  NOT NULL PRIMARY KEY  AUTO_INCREMENT,
-    idkit INT  NOT NULL,
     idproducto INT  NOT NULL,
     cantidad DECIMAL(18,2)  NOT NULL, 
-    FOREIGN KEY (idproducto) references productos(id) ON DELETE CASCADE ON UPDATE CASCADE,
-    FOREIGN KEY (idkit) references kit_productos(id) ON DELETE CASCADE ON UPDATE CASCADE
+    FOREIGN KEY (idproducto) references productos(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
                     </code>
                     </pre>
