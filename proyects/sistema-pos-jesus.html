@@ -382,6 +382,7 @@ CREATE TABLE detalle_combos(
     idcombo INT  NOT NULL,
     idproducto INT  NOT NULL,
     cantidad DECIMAL(18,2)  NOT NULL, 
+    cantidad_contenida DECIMAL(18,4)  NOT NULL,
     FOREIGN KEY (idproducto) references productos(id) ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (idcombo) references productos(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
@@ -413,7 +414,8 @@ CREATE TABLE detalle_kit(
     id INT  NOT NULL PRIMARY KEY  AUTO_INCREMENT,
     idkit INT  NOT NULL,
     idproducto INT  NOT NULL,
-    cantidad DECIMAL(18,2)  NOT NULL, 
+    cantidad DECIMAL(18,2)  NOT NULL,
+    cantidad_contenida DECIMAL(18,4)  NOT NULL, 
     FOREIGN KEY (idproducto) references productos(id) ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (idkit) references productos(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
