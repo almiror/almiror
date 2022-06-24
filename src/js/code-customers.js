@@ -271,11 +271,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                     OPCIÓN A AÑADIR MAS PRODUCTOS A UNA VENTA YA REALIZADA AREA MODIFICAR COMPROBANTES 
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                    PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                    PROCESO 10%
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                           
                             <tr class="smaller s-border-1">
