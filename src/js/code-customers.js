@@ -153,14 +153,14 @@ const appendBody  = ()=> {
 	<div class="s-mb-5">
                     <h1 class="h1 color-light s-mt-0">Sistema de Ventas POS </h1>
                     <div class="color-light smaller">
-                        <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2">
-                            Sig. actualización: 25 Jun. 2022
+                        <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2 color-success">
+                            Sig. actualización: Hoy
                         </span>
                         <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2">
                             Tipo: Softwware
                         </span>
                         <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2 color-success">
-                            V. Actual: 2.8
+                            V. Actual: 3.0 plus
                         </span>
                         <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2">
                             V. Softwware: Desktop
