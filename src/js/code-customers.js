@@ -171,6 +171,7 @@ const appendBody  = ()=> {
                     </div>
                 </div>
                 <h2 class="t3 color-yellow-300">Estado de actualización</h2>
+                <p class="color-danger">NUEVOS REQUERIMIENTOS ($40.00) PAGO PENDIENTE</p>
                 <div>
                     <table class="s-width">
                         <thead class="color-link-muted normal">
@@ -431,12 +432,7 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-success">
                                 FINALIZADO
                                 </td>
-                            </tr> -->
-                            <tr class="smaller s-border-1">
-                                <td class="s-pxy-2 s-text-center t2 color-warning" colspan="3">
-                                    NUEVOS REQUERIMIENTOS ($40.00) PAGO PENDIENTE
-                                </td>
-                            </tr>                         
+                            </tr> -->                       
                             <tr class="smaller s-border-1">
                                 <td class="s-pxy-2 s-text-left">
                                 AGREGAR EL CAMPO IMAGEN EN LA SECCION (ALMACEN PRODUCTOS)
