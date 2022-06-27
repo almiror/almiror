@@ -499,6 +499,17 @@ const appendBody  = ()=> {
                                 PENDIENTE
                                 </td>
                             </tr>                       
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                AJUSTAR EL REPORTE DE CAJA EN EL AREA VENTAS CIERRE DE CAJA
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                       
                         </tbody>
                     </table>
                 </div>                
