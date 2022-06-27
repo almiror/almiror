@@ -420,7 +420,18 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-success">
                                     FINALIZADO
                                 </td>
-                            </tr>    
+                            </tr>                                                  
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                EL SERVICIO DEBE DE MARCAR LA HORA DE SALIDA DEL EQUIPO
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
+                                </td>
+                            </tr> 
                             <tr class="smaller s-border-1">
                                 <td class="s-pxy-2 s-text-center t2 color-success" colspan="3">
                                     NUEVOS REQUERIMIENTOS ($40.00)
@@ -491,18 +502,7 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-danger">
                                 PENDIENTE
                                 </td>
-                            </tr>                     
-                            <tr class="smaller s-border-1">
-                                <td class="s-pxy-2 s-text-left">
-                                EL SERVICIO DEBE DE MARCAR LA HORA DE SALIDA DEL EQUIPO
-                                </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
-                                </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
-                                </td>
-                            </tr>                     
+                            </tr>                       
                         </tbody>
                     </table>
                 </div>                
