@@ -154,13 +154,13 @@ const appendBody  = ()=> {
                     <h1 class="h1 color-light s-mt-0">Sistema de Ventas POS </h1>
                     <div class="color-light smaller">
                         <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2 color-success">
-                            Sig. actualización: Hoy
+                            Sig. actualización: 02 Jul. 2022
                         </span>
                         <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2">
                             Tipo: Softwware
                         </span>
                         <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2 color-success">
-                            V. Actual: 3.0 plus
+                            V. Actual: 3.1
                         </span>
                         <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2">
                             V. Softwware: Desktop
@@ -179,7 +179,7 @@ const appendBody  = ()=> {
                             <th class="s-pxy-2 s-text-left s-border-1">ESTADO</th>
                         </thead>
                         <tbody class="color-text-alt">
-                            <tr class="smaller s-border-1">
+                            <!--<tr class="smaller s-border-1">
                                 <td class="s-pxy-2 s-text-left">
                                     CARGA DE PRODUCTOS EN EL AREA DE SERVICIO AL MOMENTO DE REALIZAR EL INGRESO DEL EQUIPO Y CON LA OPCIÓN DE AÑADIRLO POSTERIORMENTE
                                 </td>
@@ -431,10 +431,10 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-success">
                                 FINALIZADO
                                 </td>
-                            </tr> 
+                            </tr> -->
                             <tr class="smaller s-border-1">
-                                <td class="s-pxy-2 s-text-center t2 color-success" colspan="3">
-                                    NUEVOS REQUERIMIENTOS ($40.00)
+                                <td class="s-pxy-2 s-text-center t2 color-warning" colspan="3">
+                                    NUEVOS REQUERIMIENTOS ($40.00) PAGO PENDIENTE
                                 </td>
                             </tr>                         
                             <tr class="smaller s-border-1">
