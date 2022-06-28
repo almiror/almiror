@@ -586,7 +586,8 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-danger">
                                 PENDIENTE
                                 </td>
-                            </tr>                       
+                            </tr>  
+                            <tr class="smaller s-border-1">                     
                                 <td class="s-pxy-2 s-text-left">
                                 LAS OPCION A ANULAR UNA FACTURA (3 FACTURAS) 
                                 </td>
