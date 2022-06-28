@@ -654,7 +654,7 @@ const appendBody  = ()=> {
                            10
                             </td>                
                                 <td class="s-pxy-2 s-text-left">
-                                EL SISTEMA DEBE CREAR AUTOMÁTICAMENTE LAS FECHA DE PAGO UNA VEZ CONIGURADO LA CANTIDAD DE DÍAS Y LA FECHA ESPECIFICADA (ventas)
+                                AJUSTAR LA VENTA (MAXIMIZAR EL TAMAÑO) EN EL AREA FACTURA OLD
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-danger">
                                 PENDIENTE
@@ -668,7 +668,7 @@ const appendBody  = ()=> {
                            11
                             </td>                
                                 <td class="s-pxy-2 s-text-left">
-                                EL SISTEMA DEBE CREAR AUTOMÁTICAMENTE LAS FECHA DE PAGO UNA VEZ CONIGURADO LA CANTIDAD DE DÍAS Y LA FECHA ESPECIFICADA (factura OLD)
+                                EL SISTEMA DEBE CREAR AUTOMÁTICAMENTE LAS FECHA DE PAGO UNA VEZ CONIGURADO LA CANTIDAD DE DÍAS Y LA FECHA ESPECIFICADA (ventas)
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-danger">
                                 PENDIENTE
@@ -680,6 +680,20 @@ const appendBody  = ()=> {
                             <tr class="smaller s-border-1">       
                             <td class="s-pxy-2 s-text-left">
                            12
+                            </td>              
+                                <td class="s-pxy-2 s-text-left">
+                                EL SISTEMA DEBE CREAR AUTOMÁTICAMENTE LAS FECHA DE PAGO UNA VEZ CONIGURADO LA CANTIDAD DE DÍAS Y LA FECHA ESPECIFICADA (factura OLD)
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                       
+                            <tr class="smaller s-border-1">       
+                            <td class="s-pxy-2 s-text-left">
+                           13
                             </td>              
                                 <td class="s-pxy-2 s-text-left">
                                 CARGAR LA FICHA TÉCNICA Y EL REGISTRO SANITARIO DEL PRODUCTO (AREA ALMACEN PRODUCTOS) 
