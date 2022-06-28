@@ -198,7 +198,7 @@
                             ejecuta todas las consultas paso a paso de lo contrario el sistema no trabajara de una forma
                             adecuada.
                         </p>
-                    <pre class="s-radius-xy-3">
+                        <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 1° PRIMERA CONSULTA
@@ -209,7 +209,7 @@ ALTER TABLE venta_computo ADD totalproductos DECIMAL(18,2) NOT NULL,
                           ADD totalservicio DECIMAL(18,2) NOT NULL;
                     </code>
                     </pre>
-                    <pre class="s-radius-xy-3">
+                        <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 2° CREAMOS LA TABLA DETALLES PARA EL AREA DE SERVICIO
@@ -231,7 +231,7 @@ CREATE TABLE detalle_servicios(
 );
                     </code>
                     </pre>
-                    <pre class="s-radius-xy-3">
+                        <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 3° CREAMOS LA TABLA PAGOS PARA EL MODULO CUENTAS POR COBRAR
@@ -245,7 +245,7 @@ CREATE TABLE pagos_cuentas_por_cobrar(
 ); 
                     </code>
                     </pre>
-                    <pre class="s-radius-xy-3">
+                        <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 4° CREAMOS LA TABLA DETALLE PAGOS PARA EL MODULO CUENTAS POR COBRAR
@@ -259,7 +259,7 @@ CREATE TABLE detallepagos_cuentas_por_cobrar(
 ); 
                     </code>
                     </pre>
-                    <pre class="s-radius-xy-3">
+                        <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 5° CREAMOS LA TABLA  PAGOS PARA EL MODULO CUENTAS POR PAGAR
@@ -275,7 +275,7 @@ CREATE TABLE pagos_cuentas_por_pagar(
 ); 
                     </code>
                     </pre>
-                    <pre class="s-radius-xy-3">
+                        <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 6° CREAMOS LA COLUMNA SALIDA PARA ESPECIFICAR LA HORA DEL SALIDA DEL SERVICIO
@@ -283,7 +283,7 @@ CREATE TABLE pagos_cuentas_por_pagar(
 ALTER TABLE venta_computo ADD salida DATETIME; 
                     </code>
                     </pre>
-                    <pre class="s-radius-xy-3">
+                        <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 7° CREAMOS LA TABLA PAGOS PARA EL MODULO SERVICIO
@@ -301,7 +301,7 @@ CREATE TABLE pagos_servicios(
 ); 
                     </code>
                     </pre>
-                    <pre class="s-radius-xy-3">
+                        <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 8° CREAMOS LA COLUMNA PARA VALIDAR TODOS LOS PAGOS DEL MODULO SERVICIO
@@ -309,7 +309,7 @@ CREATE TABLE pagos_servicios(
 ALTER TABLE corte_caja ADD otros_servicios DECIMAL(18,2) NOT NULL;
                     </code>
                     </pre>
-                    <pre class="s-radius-xy-3">
+                        <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 9° CREAMOS LA COLUMNA PARA VALIDAR CON LOS COMPROBANTES QUE SE VAN A TRABAJAR
@@ -317,7 +317,7 @@ ALTER TABLE corte_caja ADD otros_servicios DECIMAL(18,2) NOT NULL;
 ALTER TABLE comprobantes ADD towork VARCHAR(6) NOT NULL;
                     </code>
                     </pre>
-                    <pre class="s-radius-xy-3">
+                        <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 10° CREAMOS LA COLUMNA PARA VALIDAR SI UN COMPROBANTE ESTA FIJADO
@@ -325,7 +325,7 @@ ALTER TABLE comprobantes ADD towork VARCHAR(6) NOT NULL;
 ALTER TABLE comprobantes ADD comprobante_fijado TINYINT NOT NULL;
                     </code>
                     </pre>
-                    <pre class="s-radius-xy-3">
+                        <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 11° CREAMOS LA TABLA PARA LOS DESCUENTOS GLOBALES Y VALIDAR EN EL AREA VENTAS
@@ -339,7 +339,7 @@ CREATE TABLE descuento_global(
 );
                     </code>
                     </pre>
-                    <pre class="s-radius-xy-3">
+                        <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 11° CREAMOS LA TABLA PARA REGISTRAR LOS APP DE DELIVERYS
@@ -354,7 +354,7 @@ CREATE TABLE app_delivery(
 );
                     </code>
                     </pre>
-                    <!-- <pre class="s-radius-xy-3">
+                        <!-- <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 12 OFERTAS Y KITS TABLA PRINCIPAL
@@ -372,7 +372,7 @@ CREATE TABLE ofertas(
 );
                     </code>
                     </pre> -->
-                    <pre class="s-radius-xy-3">
+                        <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 13° OFERTAS 
@@ -388,7 +388,7 @@ CREATE TABLE detalle_combos(
 );
                     </code>
                     </pre>
-                    <!-- <pre class="s-radius-xy-3">
+                        <!-- <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 14° KIT TABLA PRINCIPAL PARA ALMACENAR LOS KITS DE PRODUCTOS
@@ -405,7 +405,7 @@ CREATE TABLE kit_productos(
 );
                     </code>
                     </pre> -->
-                    <pre class="s-radius-xy-3">
+                        <pre class="s-radius-xy-3">
                     <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 14° KIT  PRODUCTOS
@@ -421,7 +421,7 @@ CREATE TABLE detalle_kit(
 );
                     </code>
                     </pre>
-                    <pre class="s-radius-xy-3">
+                        <pre class="s-radius-xy-3">
                         <code class="language-sql s-radius-xy-2 s-select-default">
 /*
 15° NUEVOS MODULOS DEL SISTEMA
@@ -432,6 +432,21 @@ ALTER TABLE modulos ADD historial_cuentas_cobrar TINYINT  NOT NULL;
 ALTER TABLE modulos ADD historial_productos_vendido TINYINT  NOT NULL;
 ALTER TABLE modulos ADD app_delivery TINYINT  NOT NULL;
 ALTER TABLE modulos ADD verificador_precios TINYINT NOT NULL;
+                        </code>
+                        </pre>
+                        <h3 class="color-warning t3">
+                            Consultas MYSQL de la versión 3.10
+                        </h3>
+                        <p class="color-text">
+                            Antes de ejecutar el instalador del <span class="color-success">SISTEMA POS CSM</span>
+                            ejecuta todas las consultas si los pasos y ejecutas las consultas 👇👇👇
+                        </p>
+                        <pre class="s-radius-xy-3">
+                        <code class="language-sql s-radius-xy-2 s-select-default">
+/*
+01° PRODUCTOS POSTER
+*/
+ALTER TABLE productos ADD poster VARCHAR(250) NOT NULL;
                         </code>
                         </pre>
                     </div>
