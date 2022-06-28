@@ -510,6 +510,93 @@ const appendBody  = ()=> {
                                 PENDIENTE
                                 </td>
                             </tr>                       
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                INCLUIR EL DESCUENTO GENERAL DE CADE PERSONAL EN EL CIERRE DE CAJA (AREA VENTAS)
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                       
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                HISTORIAL DE CUENTAS POR PAGAR CON LA OPCION DE REIMPRIMIR EL TICKET
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                       
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                REESTRUCTURACION GENEREAL DE CUENTAS POR COBRAR (listado tipo cuentas por pagar)
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                       
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                AJUSTAR TABLA DE VENTAS (AREA VENTAS)
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                       
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                GUARDAR VENTA TEMPORAL AREA VENTAS
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                       
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                OPCIÓN A MARCAR O DESMARCAR TODO LOS ITEMS DE LOS MODULOS (AREA MODULOS)
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                       
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                LAS OPCIONES DE IMPRESION DEBEN DE SER CONFIGURABLES PARA CADA TIPO DE IMPRESIÓN
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                       
+                                <td class="s-pxy-2 s-text-left">
+                                LAS OPCION A ANULAR UNA FACTURA (3 FACTURAS) 
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                       
                         </tbody>
                     </table>
                 </div>                
