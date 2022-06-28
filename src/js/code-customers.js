@@ -171,7 +171,7 @@ const appendBody  = ()=> {
                     </div>
                 </div>
                 <h2 class="t3 color-yellow-300">Estado de actualización</h2>
-                <p class="color-danger">NUEVOS REQUERIMIENTOS (💲40.00) PAGO PENDIENTE</p>
+                <p class="color-danger">NUEVOS REQUERIMIENTOS (<span class="color-success">💲40 </span>) PAGO PENDIENTE</p>
                 <div>
                     <table class="s-width">
                         <thead class="color-link-muted normal">
@@ -520,7 +520,7 @@ const appendBody  = ()=> {
                             </tr>                       
                             <tr class="smaller s-border-1">
                                 <td class="s-pxy-2 color-warning s-text-center" colspan="4">
-                                PRECIO POR LOS REQUERIMIENTOS Precio 💲280 ( con descuento 💲220) PENDIENTE 👇👇👇
+                                PRECIO POR LOS REQUERIMIENTOS Precio <span class="color-success">💲280 </span>( con descuento <span class="color-success">💲220 </span>) PENDIENTE 👇👇👇
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
