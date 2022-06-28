@@ -501,7 +501,7 @@ const appendBody  = ()=> {
                             </tr>                       
                             <tr class="smaller s-border-1">
                                 <td class="s-pxy-2 s-text-left color-warning" colspan="3">
-                                PRECIO DEL LOS SIGUIENTES REQUERIMIENTOS ($170) PENDIENTE
+                                PRECIO DEL LOS SIGUIENTES REQUERIMIENTOS Precio $200 con descuento ($150) PENDIENTE
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
