@@ -440,8 +440,8 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-danger">
                                 PENDIENTE
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-warning">
+                                PROCESO 50%
                                 </td>
                             </tr>                      
                             <tr class="smaller s-border-1">
@@ -500,8 +500,13 @@ const appendBody  = ()=> {
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left color-warning" colspan="3">
+                                PRECIO DEL LOS SIGUIENTES REQUERIMIENTOS ($170) PENDIENTE
+                                </td>
+                            </tr>                       
+                            <tr class="smaller s-border-1">
                                 <td class="s-pxy-2 s-text-left">
-                                AJUSTAR EL REPORTE DE CAJA EN EL AREA VENTAS CIERRE DE CAJA
+                                AJUSTAR EL REPORTE DE CAJA EN EL AREA VENTAS CIERRE DE CAJA (EL REPORTE EN 80 ML EN ESPECIFICO)
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-danger">
                                 PENDIENTE
