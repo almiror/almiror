@@ -542,7 +542,7 @@ const appendBody  = ()=> {
                            02
                             </td>
                                 <td class="s-pxy-2 s-text-left">
-                                INCLUIR EL DESCUENTO GENERAL DE CADE PERSONAL EN EL CIERRE DE CAJA (AREA VENTAS)
+                                INCLUIR EL DESCUENTO GENERAL DE CADA PERSONAL EN EL CIERRE DE CAJA (AREA VENTAS)
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-danger">
                                 PENDIENTE
