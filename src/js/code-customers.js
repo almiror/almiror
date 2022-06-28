@@ -104,8 +104,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   newKPassSoftware.map((item) => {
     passClient += item;
   });
-  console.log(keyClient);
-  console.log(passClient);
+//   console.log(keyClient);
+//   console.log(passClient);
   document.getElementById("formLogin").addEventListener("submit", async (e) => {
 	const keyImput = passClient.toLocaleUpperCase();
 	const textoPlano = keyClient.toLocaleUpperCase();
@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       appendBody()
     } catch (e) {
       console.log("Error desencriptando: " + e.message + ". ¿La contraseña es la correcta y la información está en base64?");
-      console.log("LO SENTIMOS TU DATOS SON INCORRECTOS");
+    //   console.log("LO SENTIMOS TU DATOS SON INCORRECTOS");
       return;
     }
   });
@@ -154,7 +154,7 @@ const appendBody  = ()=> {
                     <h1 class="h1 color-light s-mt-0">Sistema de Ventas POS </h1>
                     <div class="color-light smaller">
                         <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2 color-success">
-                            Sig. actualización: 02 Jul. 2022
+                            Sig. actualización: 15 Jul. 2022
                         </span>
                         <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2">
                             Tipo: Softwware
@@ -171,10 +171,11 @@ const appendBody  = ()=> {
                     </div>
                 </div>
                 <h2 class="t3 color-yellow-300">Estado de actualización</h2>
-                <p class="color-danger">NUEVOS REQUERIMIENTOS ($40.00) PAGO PENDIENTE</p>
+                <p class="color-danger">NUEVOS REQUERIMIENTOS (💲40.00) PAGO PENDIENTE</p>
                 <div>
                     <table class="s-width">
                         <thead class="color-link-muted normal">
+                            <th class="s-pxy-2 s-text-left s-border-1"># ITEM</th>
                             <th class="s-pxy-2 s-text-left s-border-1">DESCRIPCIÓN</th>
                             <th class="s-pxy-2 s-text-left s-border-1">ACTUALIZACIÓN</th>
                             <th class="s-pxy-2 s-text-left s-border-1">ESTADO</th>
@@ -435,6 +436,9 @@ const appendBody  = ()=> {
                             </tr> -->                       
                             <tr class="smaller s-border-1">
                                 <td class="s-pxy-2 s-text-left">
+                               01
+                                </td>
+                                <td class="s-pxy-2 s-text-left">
                                 AGREGAR EL CAMPO IMAGEN EN LA SECCION (ALMACEN PRODUCTOS)
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-danger">
@@ -445,6 +449,9 @@ const appendBody  = ()=> {
                                 </td>
                             </tr>                      
                             <tr class="smaller s-border-1">
+                            <td class="s-pxy-2 s-text-left">
+                           02
+                            </td>
                                 <td class="s-pxy-2 s-text-left">
                                 MOSTRAR LA IMAGEN EN LA SECCION VENTAS AL MOMENTO DE AGREGAR EL PRODUCTO
                                 </td>
@@ -457,6 +464,9 @@ const appendBody  = ()=> {
                             </tr>                      
                             <tr class="smaller s-border-1">
                                 <td class="s-pxy-2 s-text-left">
+                               03
+                                </td>
+                                <td class="s-pxy-2 s-text-left">
                                 MOSTRAR LA IMAGEN EN LA SECCION VENTAS FACTURA OLD
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-danger">
@@ -467,6 +477,9 @@ const appendBody  = ()=> {
                                 </td>
                             </tr>                      
                             <tr class="smaller s-border-1">
+                            <td class="s-pxy-2 s-text-left">
+                           04
+                            </td>
                                 <td class="s-pxy-2 s-text-left">
                                 MOSTRAR LA IMAGEN EN LA SECCION VENTAS MODIFICAR VENTA
                                 </td>
@@ -478,6 +491,9 @@ const appendBody  = ()=> {
                                 </td>
                             </tr>                      
                             <tr class="smaller s-border-1">
+                            <td class="s-pxy-2 s-text-left">
+                           05
+                            </td>
                                 <td class="s-pxy-2 s-text-left">
                                 MOSTRAR LA IMAGEN EN LA SECCION SERVICIOS AL MOMENTO DE AGREGAR EL PRODUCTO
                                 </td>
@@ -489,6 +505,9 @@ const appendBody  = ()=> {
                                 </td>
                             </tr>                     
                             <tr class="smaller s-border-1">
+                            <td class="s-pxy-2 s-text-left">
+                           06
+                            </td>
                                 <td class="s-pxy-2 s-text-left">
                                 MOSTRAR LA IMAGEN EN LA SECCION SERVICIOS AL AGREGAR MAS ACCESORIOS
                                 </td>
@@ -500,11 +519,14 @@ const appendBody  = ()=> {
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
-                                <td class="s-pxy-2 s-text-left color-warning" colspan="3">
-                                PRECIO POR LOS REQUERIMIENTOS Precio $200 ( con descuento $150) PENDIENTE
+                                <td class="s-pxy-2 color-warning s-text-center" colspan="4">
+                                PRECIO POR LOS REQUERIMIENTOS Precio 💲280 ( con descuento 💲220) PENDIENTE 👇👇👇
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
+                            <td class="s-pxy-2 s-text-left">
+                           01
+                            </td>
                                 <td class="s-pxy-2 s-text-left">
                                 AJUSTAR EL REPORTE DE CAJA EN EL AREA VENTAS CIERRE DE CAJA (EL REPORTE EN 80 ML EN ESPECIFICO)
                                 </td>
@@ -516,6 +538,9 @@ const appendBody  = ()=> {
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
+                            <td class="s-pxy-2 s-text-left">
+                           02
+                            </td>
                                 <td class="s-pxy-2 s-text-left">
                                 INCLUIR EL DESCUENTO GENERAL DE CADE PERSONAL EN EL CIERRE DE CAJA (AREA VENTAS)
                                 </td>
@@ -527,6 +552,9 @@ const appendBody  = ()=> {
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
+                            <td class="s-pxy-2 s-text-left">
+                           03
+                            </td>
                                 <td class="s-pxy-2 s-text-left">
                                 HISTORIAL DE CUENTAS POR PAGAR CON LA OPCION DE REIMPRIMIR EL TICKET
                                 </td>
@@ -538,6 +566,9 @@ const appendBody  = ()=> {
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
+                            <td class="s-pxy-2 s-text-left">
+                           04
+                            </td>
                                 <td class="s-pxy-2 s-text-left">
                                 REESTRUCTURACION GENEREAL DE CUENTAS POR COBRAR (listado tipo cuentas por pagar)
                                 </td>
@@ -549,6 +580,9 @@ const appendBody  = ()=> {
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
+                            <td class="s-pxy-2 s-text-left">
+                           05
+                            </td>
                                 <td class="s-pxy-2 s-text-left">
                                 AJUSTAR TABLA DE VENTAS (AREA VENTAS)
                                 </td>
@@ -560,6 +594,9 @@ const appendBody  = ()=> {
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
+                            <td class="s-pxy-2 s-text-left">
+                           06
+                            </td>
                                 <td class="s-pxy-2 s-text-left">
                                 GUARDAR VENTA TEMPORAL AREA VENTAS
                                 </td>
@@ -571,6 +608,9 @@ const appendBody  = ()=> {
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
+                            <td class="s-pxy-2 s-text-left">
+                           07
+                            </td>
                                 <td class="s-pxy-2 s-text-left">
                                 OPCIÓN A MARCAR O DESMARCAR TODO LOS ITEMS DE LOS MODULOS (AREA MODULOS)
                                 </td>
@@ -582,6 +622,9 @@ const appendBody  = ()=> {
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
+                            <td class="s-pxy-2 s-text-left">
+                           08
+                            </td>
                                 <td class="s-pxy-2 s-text-left">
                                 LAS OPCIONES DE IMPRESION DEBEN DE SER CONFIGURABLES PARA CADA TIPO DE IMPRESIÓN
                                 </td>
@@ -592,9 +635,54 @@ const appendBody  = ()=> {
                                 PENDIENTE
                                 </td>
                             </tr>  
-                            <tr class="smaller s-border-1">                     
+                            <tr class="smaller s-border-1">      
+                            <td class="s-pxy-2 s-text-left">
+                           09
+                            </td>               
                                 <td class="s-pxy-2 s-text-left">
                                 LAS OPCION A ANULAR UNA FACTURA (3 FACTURAS) 
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                       
+                            <tr class="smaller s-border-1">     
+                            <td class="s-pxy-2 s-text-left">
+                           10
+                            </td>                
+                                <td class="s-pxy-2 s-text-left">
+                                EL SISTEMA DEBE CREAR AUTOMÁTICAMENTE LAS FECHA DE PAGO UNA VEZ CONIGURADO LA CANTIDAD DE DÍAS Y LA FECHA ESPECIFICADA (ventas)
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                             
+                            <tr class="smaller s-border-1">     
+                            <td class="s-pxy-2 s-text-left">
+                           11
+                            </td>                
+                                <td class="s-pxy-2 s-text-left">
+                                EL SISTEMA DEBE CREAR AUTOMÁTICAMENTE LAS FECHA DE PAGO UNA VEZ CONIGURADO LA CANTIDAD DE DÍAS Y LA FECHA ESPECIFICADA (factura OLD)
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                PENDIENTE
+                                </td>
+                            </tr>                             
+                            <tr class="smaller s-border-1">       
+                            <td class="s-pxy-2 s-text-left">
+                           12
+                            </td>              
+                                <td class="s-pxy-2 s-text-left">
+                                CARGAR LA FICHA TÉCNICA Y EL REGISTRO SANITARIO DEL PRODUCTO (AREA ALMACEN PRODUCTOS) 
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-danger">
                                 PENDIENTE
@@ -609,3 +697,14 @@ const appendBody  = ()=> {
 	`
 	document.getElementById('bodyCode').innerHTML = body
 }
+document.getElementById('view-dblok').addEventListener('click',() => {
+    if(document.getElementById('blok-conten').classList.contains('full-none')) {
+        document.getElementById('blok-conten').style.display = "block"
+        document.getElementById('blok-conten').classList.remove("full-none")
+        document.getElementById('view-dblok').innerText = "Ocultar código"
+    } else {
+        document.getElementById('blok-conten').classList.add('full-none')
+        document.getElementById('blok-conten').style.display = "none"
+        document.getElementById('view-dblok').innerText = "Mostrar código"
+    }
+})
