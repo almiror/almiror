@@ -175,7 +175,7 @@ const appendBody  = ()=> {
                 <div>
                     <table class="s-width">
                         <thead class="color-link-muted normal">
-                            <th class="s-pxy-2 s-text-left s-border-1"># ITEM</th>
+                            <th class="s-pxy-2 s-text-left s-border-1"> # </th>
                             <th class="s-pxy-2 s-text-left s-border-1">DESCRIPCIÓN</th>
                             <th class="s-pxy-2 s-text-left s-border-1">ACTUALIZACIÓN</th>
                             <th class="s-pxy-2 s-text-left s-border-1">ESTADO</th>
