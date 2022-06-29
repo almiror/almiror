@@ -530,11 +530,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                 AJUSTAR EL REPORTE DE CAJA EN EL AREA VENTAS CIERRE DE CAJA (EL REPORTE EN 80 ML EN ESPECIFICO)
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
@@ -586,11 +586,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                 AJUSTAR TABLA DE VENTAS (AREA VENTAS)
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
@@ -656,11 +656,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                 AJUSTAR LA VENTA (MAXIMIZAR EL TAMAÑO) EN EL AREA FACTURA OLD
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                             
                             <tr class="smaller s-border-1">     
