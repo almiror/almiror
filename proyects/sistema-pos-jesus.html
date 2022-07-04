@@ -246,6 +246,24 @@ CREATE TABLE detalle_temporal(
 );
                         </code>
                         </pre>
+                        <pre class="s-radius-xy-3">
+                        <code class="language-sql s-radius-xy-2 s-select-default">
+/*
+04° DISCOUNT
+*/
+CREATE TABLE descuentos_venta(
+    id INT  NOT NULL PRIMARY KEY  AUTO_INCREMENT,
+    idalmacen INT  NOT NULL,
+    idusuario INT  NOT NULL,
+    idventa INT  NOT NULL,
+    fecha DATE  NOT NULL,
+    monto DECIMAL(18,2) NOT NULL,
+    FOREIGN KEY (idalmacen) references almacen(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (idusuario) references usuarios(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (idventa) references ventas(id) ON DELETE CASCADE ON UPDATE CASCADE    
+);
+                        </code>
+                        </pre>
 
                         <!--CODIGO DE LA VERSIÓN ANTERIOR-->
                         <h3 class="color-yellow-300 t3">

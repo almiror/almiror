@@ -544,11 +544,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                 INCLUIR EL DESCUENTO GENERAL DE CADA PERSONAL EN EL CIERRE DE CAJA (AREA VENTAS)
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
+                                <td class="s-pxy-2 s-text-left color-warning">
                                 PENDIENTE
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-warning">
+                                PROCESO 95%
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
@@ -642,11 +642,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                 LAS OPCION A ANULAR UNA FACTURA (3 FACTURAS) 
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-warning">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-warning">
+                                FINALIZADO (Observacion)
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">     
@@ -698,11 +698,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                 CARGAR LA FICHA TÉCNICA Y EL REGISTRO SANITARIO DEL PRODUCTO (AREA ALMACEN PRODUCTOS) 
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
+                                <td class="s-pxy-2 s-text-left color-warning">
                                 PENDIENTE
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-warning">
+                                PROCESO 25%
                                 </td>
                             </tr>                       
                         </tbody>
