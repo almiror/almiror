@@ -600,11 +600,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                 GUARDAR VENTA TEMPORAL AREA VENTAS
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
@@ -614,11 +614,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                 OPCIÓN A MARCAR O DESMARCAR TODO LOS ITEMS DE LOS MODULOS (AREA MODULOS)
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
