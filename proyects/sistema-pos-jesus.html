@@ -267,9 +267,24 @@ CREATE TABLE descuentos_venta(
                         <pre class="s-radius-xy-3">
                         <code class="language-sql s-radius-xy-2 s-select-default">
 /*
-04° CUT BOX COLUMN ADD DISCOUNT
+05° CUT BOX COLUMN ADD DISCOUNT
 */
 ALTER TABLE corte_caja ADD descuentos DECIMAL(18,2) NOT NULL;
+                        </code>
+                        </pre>
+                        <pre class="s-radius-xy-3">
+                        <code class="language-sql s-radius-xy-2 s-select-default">
+/*
+06° ANULACIÓN DEL COMPROBANTE
+*/
+CREATE TABLE venta_anulada(
+    id INT  NOT NULL PRIMARY KEY  AUTO_INCREMENT,
+    idventa INT  NOT NULL,
+    idusuario INT  NOT NULL,
+    tipoanulacion VARCHAR(100)  NOT NULL,
+    FOREIGN KEY (idusuario) references usuarios(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (idventa) references ventas(id) ON DELETE CASCADE ON UPDATE CASCADE    
+);
                         </code>
                         </pre>
 
