@@ -544,11 +544,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                 INCLUIR EL DESCUENTO GENERAL DE CADA PERSONAL EN EL CIERRE DE CAJA (AREA VENTAS)
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                PROCESO 95%
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
