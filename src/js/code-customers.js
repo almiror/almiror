@@ -642,11 +642,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                 LAS OPCION A ANULAR UNA FACTURA (3 FACTURAS) 
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
+                                <td class="s-pxy-2 s-text-left color-success">
                                 FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                FINALIZADO (Observacion)
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">     
