@@ -516,12 +516,12 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-success">
                                 FINALIZADO
                                 </td>
-                            </tr>                       
+                            </tr>        -->                      
                             <tr class="smaller s-border-1">
                                 <td class="s-pxy-2 color-warning s-text-center" colspan="4">
                                 PRECIO POR LOS REQUERIMIENTOS Precio <span class="color-success">💲280 </span>( con descuento <span class="color-success">💲220 </span>) PENDIENTE 👇👇👇
                                 </td>
-                            </tr>     -->                    
+                            </tr>                  
                             <tr class="smaller s-border-1">
                             <td class="s-pxy-2 s-text-left">
                            01
