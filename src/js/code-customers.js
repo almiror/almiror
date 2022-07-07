@@ -560,8 +560,8 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-danger">
                                 PENDIENTE
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-warning">
+                                PROCESO 10%
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
@@ -574,8 +574,8 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-danger">
                                 PENDIENTE
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-warning">
+                                PROCESO 5%
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
@@ -669,11 +669,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                 EL SISTEMA DEBE CREAR AUTOMÁTICAMENTE LAS FECHA DE PAGO UNA VEZ CONIGURADO LA CANTIDAD DE DÍAS Y LA FECHA ESPECIFICADA (ventas)
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                PROCESO 50%
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                             
                             <tr class="smaller s-border-1">       
@@ -683,11 +683,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                 EL SISTEMA DEBE CREAR AUTOMÁTICAMENTE LAS FECHA DE PAGO UNA VEZ CONIGURADO LA CANTIDAD DE DÍAS Y LA FECHA ESPECIFICADA (factura OLD)
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                PROCESO 50%
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">       
