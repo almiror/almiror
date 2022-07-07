@@ -625,13 +625,13 @@ const appendBody  = ()=> {
                            08
                             </td>
                                 <td class="s-pxy-2 s-text-left">
-                                LAS OPCIONES DE IMPRESION DEBEN DE SER CONFIGURABLES PARA CADA TIPO DE IMPRESIÓN
+                                LAS OPCIONES DE IMPRESION DEBEN DE SER CONFIGURABLES PARA CADA TIPO DE COMPROBANTE
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-danger">
                                 PENDIENTE
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-warning">
-                                PROCESO 05%
+                                PROCESO 50%
                                 </td>
                             </tr>  
                             <tr class="smaller s-border-1">      
