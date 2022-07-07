@@ -557,11 +557,11 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left">
                                 HISTORIAL DE CUENTAS POR PAGAR CON LA OPCION DE REIMPRIMIR EL TICKET
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-danger">
-                                PENDIENTE
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
-                                <td class="s-pxy-2 s-text-left color-warning">
-                                PROCESO 10%
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
@@ -575,7 +575,7 @@ const appendBody  = ()=> {
                                 PENDIENTE
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-warning">
-                                PROCESO 5%
+                                PROCESO 50%
                                 </td>
                             </tr>                       
                             <tr class="smaller s-border-1">
