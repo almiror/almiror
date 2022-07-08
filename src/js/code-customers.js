@@ -625,7 +625,7 @@ const appendBody  = ()=> {
                            08
                             </td>
                                 <td class="s-pxy-2 s-text-left">
-                                LAS OPCIONES DE IMPRESION DEBEN DE SER CONFIGURABLES PARA CADA TIPO DE COMPROBANTE
+                                LAS OPCIONES DE IMPRESION DEBEN DE SER CONFIGURABLES PARA CADA TIPO DE COMPROBANTE DE VENTA
                                 </td>
                                 <td class="s-pxy-2 s-text-left color-danger">
                                 PENDIENTE
