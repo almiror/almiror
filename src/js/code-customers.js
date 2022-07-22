@@ -104,11 +104,11 @@ document.addEventListener("DOMContentLoaded", async () => {
   newKPassSoftware.map((item) => {
     passClient += item;
   });
-//   console.log(keyClient);
-//   console.log(passClient);
+  //   console.log(keyClient);
+  //   console.log(passClient);
   document.getElementById("formLogin").addEventListener("submit", async (e) => {
-	const keyImput = passClient.toLocaleUpperCase();
-	const textoPlano = keyClient.toLocaleUpperCase();
+    const keyImput = passClient.toLocaleUpperCase();
+    const textoPlano = keyClient.toLocaleUpperCase();
     e.preventDefault();
     if (!keyImput) {
       return alert("Incorrect password");
@@ -137,30 +137,35 @@ document.addEventListener("DOMContentLoaded", async () => {
     try {
       //desiframos los datos
       const desencriptado = await desencriptar(keyCustomer, dataCifrada);
-	  containerAccess.classList.add('full-none')
-	  document.getElementById('codesbody').classList.toggle('full-none')
-	  document.getElementById('footer').classList.toggle('full-none')
-      appendBody()
+      containerAccess.classList.add("full-none");
+      document.getElementById("codesbody").classList.toggle("full-none");
+      document.getElementById("footer").classList.toggle("full-none");
+      appendBody();
     } catch (e) {
-      console.log("Error desencriptando: " + e.message + ". ¿La contraseña es la correcta y la información está en base64?");
-    //   console.log("LO SENTIMOS TU DATOS SON INCORRECTOS");
+      console.log(
+        "Error desencriptando: " +
+          e.message +
+          ". ¿La contraseña es la correcta y la información está en base64?"
+      );
+      //   console.log("LO SENTIMOS TU DATOS SON INCORRECTOS");
       return;
     }
   });
 });
-const appendBody  = ()=> {
-	let body = `
+const appendBody = () => {
+  let body =//html
+    `
 	<div class="s-mb-5">
                     <h1 class="h1 color-light s-mt-0">Sistema de Ventas POS </h1>
                     <div class="color-light smaller">
                         <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2 color-success">
-                            Sig. actualización: 15 Jul. 2022
+                            Sig. actualización: 23 Jul. 2022
                         </span>
                         <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2">
                             Tipo: Softwware
                         </span>
                         <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2 color-success">
-                            V. Actual: 3.1
+                            V. Actual: 3.4
                         </span>
                         <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2">
                             V. Softwware: Desktop
@@ -517,7 +522,7 @@ const appendBody  = ()=> {
                                 FINALIZADO
                                 </td>
                             </tr>        -->                      
-                            <tr class="smaller s-border-1">
+                            <!--<tr class="smaller s-border-1">
                                 <td class="s-pxy-2 color-warning s-text-center" colspan="4">
                                 PRECIO POR LOS REQUERIMIENTOS Precio <span class="color-success">💲280 </span>( con descuento <span class="color-success">💲220 </span>) PENDIENTE 👇👇👇
                                 </td>
@@ -703,21 +708,64 @@ const appendBody  = ()=> {
                                 <td class="s-pxy-2 s-text-left color-success">
                                 FINALIZADO
                                 </td>
-                            </tr>                       
+                            </tr> -->    
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                    01
+                                </td>
+                                <td class="s-pxy-2 s-text-left">
+                                    OCULTAR LAS OPCIONES DE FICHAS, IMAGEN DEL PRODUCTO, KITS,OFERTAS ON OPCION DE MOSTRAR
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-success">
+                                    FINALIZADO
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-success">
+                                FINALIZADO
+                                </td>
+                            </tr>                   
+                            <tr class="smaller s-border-1">
+                                <td class="s-pxy-2 s-text-left">
+                                    01
+                                </td>
+                                <td class="s-pxy-2 s-text-left">
+                                    AÑADIR FECHA DE VENCIMIENTO DE PRODUCTOS
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-danger">
+                                    PENDIENTE
+                                </td>
+                                <td class="s-pxy-2 s-text-left color-warning">
+                                    PROCESO 10%
+                                </td>
+                            </tr>                   
                         </tbody>
                     </table>
                 </div>                
-	`
-	document.getElementById('bodyCode').innerHTML = body
-}
-document.getElementById('view-dblok').addEventListener('click',() => {
-    if(document.getElementById('blok-conten').classList.contains('full-none')) {
-        document.getElementById('blok-conten').style.display = "block"
-        document.getElementById('blok-conten').classList.remove("full-none")
-        document.getElementById('view-dblok').innerText = "Ocultar código"
-    } else {
-        document.getElementById('blok-conten').classList.add('full-none')
-        document.getElementById('blok-conten').style.display = "none"
-        document.getElementById('view-dblok').innerText = "Mostrar código"
-    }
-})
+	`;
+  document.getElementById("bodyCode").innerHTML = body;
+};
+document.getElementById("view-dblok").addEventListener("click", () => {
+  if (document.getElementById("blok-conten").classList.contains("full-none")) {
+    document.getElementById("blok-conten").style.display = "block";
+    document.getElementById("blok-conten").classList.remove("full-none");
+    document.getElementById("view-dblok").innerText = "Ocultar código";
+  } else {
+    document.getElementById("blok-conten").classList.add("full-none");
+    document.getElementById("blok-conten").style.display = "none";
+    document.getElementById("view-dblok").innerText = "Mostrar código";
+  }
+});
+document.getElementById("view-dblok-second").addEventListener("click", () => {
+  if (
+    document
+      .getElementById("blok-conten-second")
+      .classList.contains("full-none")
+  ) {
+    document.getElementById("blok-conten-second").style.display = "block";
+    document.getElementById("blok-conten-second").classList.remove("full-none");
+    document.getElementById("view-dblok-second").innerText = "Ocultar código";
+  } else {
+    document.getElementById("blok-conten-second").classList.add("full-none");
+    document.getElementById("blok-conten-second").style.display = "none";
+    document.getElementById("view-dblok-second").innerText = "Mostrar código";
+  }
+});
