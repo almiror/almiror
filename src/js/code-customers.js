@@ -168,7 +168,7 @@ const appendBody = () => {
                             Tipo: Softwware
                         </span>
                         <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2 color-success">
-                            V. Actual: 3.4
+                            V. Actual: 3.9
                         </span>
                         <span class="bg-dark-gradient s-pxy-2 s-radius-xy-4 s-mb-5 s-mr-2">
                             V. Softwware: Desktop
