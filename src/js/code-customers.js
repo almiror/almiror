@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   let keyClient = "";
   newKeySoftware.map((item) => {
     keyClient += item;
-  });
+  }); 
   newKPassSoftware.pop();
   newKPassSoftware.shift();
   newKPassSoftware.shift();
@@ -104,6 +104,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   newKPassSoftware.map((item) => {
     passClient += item;
   });
+  
+//   console.log(passClient);
+//   console.log(keyClient);
   //   console.log(keyClient);
   //   console.log(passClient);
   document.getElementById("formLogin").addEventListener("submit", async (e) => {
